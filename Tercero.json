@@ -1,0 +1,1024 @@
+[
+ {
+   "Apellido Paterno": "Anaya",
+   "Apellido Materno": "Sa***",
+   "Nombres": "Zo***",
+   "Escuela": "Copilli",
+   "Clave de participación": "N01-0809"
+ },
+ {
+   "Apellido Paterno": "Espinoza",
+   "Apellido Materno": "De***",
+   "Nombres": "Di***",
+   "Escuela": "August Froebel",
+   "Clave de participación": "N01-1333"
+ },
+ {
+   "Apellido Paterno": "Leal",
+   "Apellido Materno": "He***",
+   "Nombres": "Sa***",
+   "Escuela": "Copilli",
+   "Clave de participación": "N01-0810"
+ },
+ {
+   "Apellido Paterno": "Aguillon",
+   "Apellido Materno": "Go***",
+   "Nombres": "Ra***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N02-0341"
+ },
+ {
+   "Apellido Paterno": "Álvarez",
+   "Apellido Materno": "Go***",
+   "Nombres": "Aa***",
+   "Escuela": "Cardiff Institute",
+   "Clave de participación": "N02-0273"
+ },
+ {
+   "Apellido Paterno": "Díaz",
+   "Apellido Materno": "Ra***",
+   "Nombres": "Na***",
+   "Escuela": "Copilli",
+   "Clave de participación": "N02-0816"
+ },
+ {
+   "Apellido Paterno": "González",
+   "Apellido Materno": "Ra***",
+   "Nombres": "Ca***",
+   "Escuela": "Instituto Alpes San Javier",
+   "Clave de participación": "N02-0171"
+ },
+ {
+   "Apellido Paterno": "Hernández",
+   "Apellido Materno": "Lu***",
+   "Nombres": "Cr***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N02-0924"
+ },
+ {
+   "Apellido Paterno": "Montes",
+   "Apellido Materno": "Ri***",
+   "Nombres": "Re***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N02-0432"
+ },
+ {
+   "Apellido Paterno": "Perez",
+   "Apellido Materno": "Ro***",
+   "Nombres": "An***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N02-0454"
+ },
+ {
+   "Apellido Paterno": "Pérez",
+   "Apellido Materno": "Ma***",
+   "Nombres": "Se***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N02-1003"
+ },
+ {
+   "Apellido Paterno": "Pérez",
+   "Apellido Materno": "Ma***",
+   "Nombres": "Cé***",
+   "Escuela": "Independiente",
+   "Clave de participación": "N02-1119"
+ },
+ {
+   "Apellido Paterno": "Piedra",
+   "Apellido Materno": "Ar***",
+   "Nombres": "Ma***",
+   "Escuela": "Instituto Anahuacalli",
+   "Clave de participación": "N02-0895"
+ },
+ {
+   "Apellido Paterno": "Rodriguez",
+   "Apellido Materno": "Ba***",
+   "Nombres": "Ca***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N02-0475"
+ },
+ {
+   "Apellido Paterno": "Ruelas",
+   "Apellido Materno": "Ji***",
+   "Nombres": "Pa***",
+   "Escuela": "Colegio Mahatma Gandhi",
+   "Clave de participación": "N02-0260"
+ },
+ {
+   "Apellido Paterno": "Valle",
+   "Apellido Materno": "Sa***",
+   "Nombres": "Ka***",
+   "Escuela": "Instituto Anahuacalli",
+   "Clave de participación": "N02-0894"
+ },
+ {
+   "Apellido Paterno": "Angel",
+   "Apellido Materno": "No***",
+   "Nombres": "Vl***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N03-0142"
+ },
+ {
+   "Apellido Paterno": "Betancourt",
+   "Apellido Materno": "He***",
+   "Nombres": "Al***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N03-1179"
+ },
+ {
+   "Apellido Paterno": "Chávez",
+   "Apellido Materno": "Or***",
+   "Nombres": "In***",
+   "Escuela": "Centro Escolar Los Altos",
+   "Clave de participación": "N03-1568"
+ },
+ {
+   "Apellido Paterno": "Diaz De León",
+   "Apellido Materno": "He***",
+   "Nombres": "Lu***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N03-0377"
+ },
+ {
+   "Apellido Paterno": "Gerini",
+   "Apellido Materno": "Be***",
+   "Nombres": "Te***",
+   "Escuela": "Instituto Alpes San Javier",
+   "Clave de participación": "N03-0144"
+ },
+ {
+   "Apellido Paterno": "Hernández",
+   "Apellido Materno": "Os***",
+   "Nombres": "Fe***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N03-0639"
+ },
+ {
+   "Apellido Paterno": "Ignacio",
+   "Apellido Materno": "Ra***",
+   "Nombres": "Al***",
+   "Escuela": "México",
+   "Clave de participación": "N03-0147"
+ },
+ {
+   "Apellido Paterno": "Jimenez",
+   "Apellido Materno": "Ji***",
+   "Nombres": "Le***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N03-0015"
+ },
+ {
+   "Apellido Paterno": "Juárez",
+   "Apellido Materno": "Mo***",
+   "Nombres": "Ar***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N03-0919"
+ },
+ {
+   "Apellido Paterno": "Lepe",
+   "Apellido Materno": "An***",
+   "Nombres": "Ar***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N03-0960"
+ },
+ {
+   "Apellido Paterno": "Liberato",
+   "Apellido Materno": "Ro***",
+   "Nombres": "Gi***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N03-0415"
+ },
+ {
+   "Apellido Paterno": "Lomeli",
+   "Apellido Materno": "He***",
+   "Nombres": "Ch***",
+   "Escuela": "Instituto Anahuacalli",
+   "Clave de participación": "N03-0900"
+ },
+ {
+   "Apellido Paterno": "Márquez",
+   "Apellido Materno": "Ba***",
+   "Nombres": "Fr***",
+   "Escuela": "Cardiff Institute",
+   "Clave de participación": "N03-0276"
+ },
+ {
+   "Apellido Paterno": "Martínez",
+   "Apellido Materno": "Ji***",
+   "Nombres": "Mi***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N03-1029"
+ },
+ {
+   "Apellido Paterno": "Orozco",
+   "Apellido Materno": "Ma***",
+   "Nombres": "An***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N03-0231"
+ },
+ {
+   "Apellido Paterno": "Wilson",
+   "Apellido Materno": "Es***",
+   "Nombres": "Jo***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N03-1014"
+ },
+ {
+   "Apellido Paterno": "Acevedo",
+   "Apellido Materno": "Ga***",
+   "Nombres": "Re***",
+   "Escuela": "Instituto Alpes San Javier",
+   "Clave de participación": "N04-1437"
+ },
+ {
+   "Apellido Paterno": "Anaya",
+   "Apellido Materno": "Ol***",
+   "Nombres": "Ma***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N04-1035"
+ },
+ {
+   "Apellido Paterno": "Bernal",
+   "Apellido Materno": "Ba***",
+   "Nombres": "Ma***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N04-0355"
+ },
+ {
+   "Apellido Paterno": "Bonilla",
+   "Apellido Materno": "Vi***",
+   "Nombres": "Li***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N04-0357"
+ },
+ {
+   "Apellido Paterno": "Cadena",
+   "Apellido Materno": "Fe***",
+   "Nombres": "Le***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N04-1895"
+ },
+ {
+   "Apellido Paterno": "Colomo",
+   "Apellido Materno": "Sa***",
+   "Nombres": "Ál***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N04-1043"
+ },
+ {
+   "Apellido Paterno": "Diosdado",
+   "Apellido Materno": "Ma***",
+   "Nombres": "Ya***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N04-1039"
+ },
+ {
+   "Apellido Paterno": "Galindo",
+   "Apellido Materno": "Ga***",
+   "Nombres": "El***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N04-1045"
+ },
+ {
+   "Apellido Paterno": "Garcia",
+   "Apellido Materno": "Ca***",
+   "Nombres": "Ch***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N04-0387"
+ },
+ {
+   "Apellido Paterno": "Gerini",
+   "Apellido Materno": "Be***",
+   "Nombres": "Ki***",
+   "Escuela": "Instituto Alpes San Javier",
+   "Clave de participación": "N04-0145"
+ },
+ {
+   "Apellido Paterno": "Lonza",
+   "Apellido Materno": "Ag***",
+   "Nombres": "Ma***",
+   "Escuela": "Instituto Alpes San Javier",
+   "Clave de participación": "N04-0597"
+ },
+ {
+   "Apellido Paterno": "Macías",
+   "Apellido Materno": "As***",
+   "Nombres": "Se***",
+   "Escuela": "México",
+   "Clave de participación": "N04-0154"
+ },
+ {
+   "Apellido Paterno": "Muñoz",
+   "Apellido Materno": "Ca***",
+   "Nombres": "Ge***",
+   "Escuela": "Copilli",
+   "Clave de participación": "N04-0824"
+ },
+ {
+   "Apellido Paterno": "Pasquali",
+   "Apellido Materno": "Go***",
+   "Nombres": "Gi***",
+   "Escuela": "Instituto Tepeyac Campus Santa Anita",
+   "Clave de participación": "N04-0728"
+ },
+ {
+   "Apellido Paterno": "Piza",
+   "Apellido Materno": "Lo***",
+   "Nombres": "Va***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N04-0459"
+ },
+ {
+   "Apellido Paterno": "Ruelas",
+   "Apellido Materno": "Gó***",
+   "Nombres": "Em***",
+   "Escuela": "Primaria Ixcafarias ",
+   "Clave de participación": "N04-1458"
+ },
+ {
+   "Apellido Paterno": "Suarez",
+   "Apellido Materno": "Cá***",
+   "Nombres": "Za***",
+   "Escuela": "México",
+   "Clave de participación": "N04-0156"
+ },
+ {
+   "Apellido Paterno": "Valdez",
+   "Apellido Materno": "Lo***",
+   "Nombres": "In***",
+   "Escuela": "Centro Escolar Los Altos",
+   "Clave de participación": "N04-1592"
+ },
+ {
+   "Apellido Paterno": "Velázquez",
+   "Apellido Materno": "Dá***",
+   "Nombres": "Cr***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N04-1050"
+ },
+ {
+   "Apellido Paterno": "Aguilar",
+   "Apellido Materno": "De***",
+   "Nombres": "Be***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N05-0955"
+ },
+ {
+   "Apellido Paterno": "Elvira",
+   "Apellido Materno": "Ru***",
+   "Nombres": "Je***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N05-0943"
+ },
+ {
+   "Apellido Paterno": "Figueroa",
+   "Apellido Materno": "Go***",
+   "Nombres": "Ma***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N05-0380"
+ },
+ {
+   "Apellido Paterno": "Gutiérrez",
+   "Apellido Materno": "Ba***",
+   "Nombres": "Ni***",
+   "Escuela": "Instituto Anglo Francés Santa Anita",
+   "Clave de participación": "N05-0036"
+ },
+ {
+   "Apellido Paterno": "Liberato",
+   "Apellido Materno": "Ro***",
+   "Nombres": "Le***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N05-0416"
+ },
+ {
+   "Apellido Paterno": "Nuñez",
+   "Apellido Materno": "Mo***",
+   "Nombres": "Lu***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N05-0437"
+ },
+ {
+   "Apellido Paterno": "Ríos",
+   "Apellido Materno": "Sa***",
+   "Nombres": "Ir***",
+   "Escuela": "Centro Escolar Los Altos",
+   "Clave de participación": "N05-1590"
+ },
+ {
+   "Apellido Paterno": "Rojas",
+   "Apellido Materno": "Ra***",
+   "Nombres": "Re***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N05-0478"
+ },
+ {
+   "Apellido Paterno": "Salcedo",
+   "Apellido Materno": "Pr***",
+   "Nombres": "Sa***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N05-0487"
+ },
+ {
+   "Apellido Paterno": "Sandoval",
+   "Apellido Materno": "Va***",
+   "Nombres": "Gr***",
+   "Escuela": "Urbana #495 ",
+   "Clave de participación": "N05-0179"
+ },
+ {
+   "Apellido Paterno": "Doval",
+   "Apellido Materno": "De***",
+   "Nombres": "Be***",
+   "Escuela": "Colegio Altamira Moctezuma",
+   "Clave de participación": "N06-0642"
+ },
+ {
+   "Apellido Paterno": "Huallarzaba",
+   "Apellido Materno": "An***",
+   "Nombres": "He***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N06-0862"
+ },
+ {
+   "Apellido Paterno": "Macías",
+   "Apellido Materno": "Na***",
+   "Nombres": "Ja***",
+   "Escuela": "Colegio Mocel",
+   "Clave de participación": "N06-2013"
+ },
+ {
+   "Apellido Paterno": "Martínez",
+   "Apellido Materno": "Ac***",
+   "Nombres": "An***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N06-0290"
+ },
+ {
+   "Apellido Paterno": "Palma",
+   "Apellido Materno": "Me***",
+   "Nombres": "Sa***",
+   "Escuela": "Centro Educativo Muralistas Mexicanos",
+   "Clave de participación": "N06-1201"
+ },
+ {
+   "Apellido Paterno": "Sánchez",
+   "Apellido Materno": "Fl***",
+   "Nombres": "Is***",
+   "Escuela": "Centro Escolar Los Altos",
+   "Clave de participación": "N06-1589"
+ },
+ {
+   "Apellido Paterno": "Santoyo",
+   "Apellido Materno": "Ga***",
+   "Nombres": "Ga***",
+   "Escuela": "México",
+   "Clave de participación": "N06-0166"
+ },
+ {
+   "Apellido Paterno": "Toscano",
+   "Apellido Materno": "Ma***",
+   "Nombres": "Gi***",
+   "Escuela": "Colegio Altamira Moctezuma",
+   "Clave de participación": "N06-0291"
+ },
+ {
+   "Apellido Paterno": "Aguilar",
+   "Apellido Materno": "Gu***",
+   "Nombres": "El***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N07-0598"
+ },
+ {
+   "Apellido Paterno": "Angulo",
+   "Apellido Materno": "Me***",
+   "Nombres": "An***",
+   "Escuela": "Instituto Thomas More",
+   "Clave de participación": "N07-1251"
+ },
+ {
+   "Apellido Paterno": "Barocio",
+   "Apellido Materno": "Ag***",
+   "Nombres": "Al***",
+   "Escuela": "Escuela Secundaria Técnica 100",
+   "Clave de participación": "N07-0295"
+ },
+ {
+   "Apellido Paterno": "Camarena",
+   "Apellido Materno": "Hu***",
+   "Nombres": "Ju***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N07-0932"
+ },
+ {
+   "Apellido Paterno": "Correa",
+   "Apellido Materno": "Gú***",
+   "Nombres": "Di***",
+   "Escuela": "Escuela Antonio Caso Zapopan",
+   "Clave de participación": "N07-1462"
+ },
+ {
+   "Apellido Paterno": "Covarrubias",
+   "Apellido Materno": "Go***",
+   "Nombres": "Xi***",
+   "Escuela": "Escuela Secundaria Técnica 44",
+   "Clave de participación": "N07-0857"
+ },
+ {
+   "Apellido Paterno": "Garcia",
+   "Apellido Materno": "Pa***",
+   "Nombres": "Os***",
+   "Escuela": "Escuela Secundaria Técnica 100",
+   "Clave de participación": "N07-0298"
+ },
+ {
+   "Apellido Paterno": "Garcia",
+   "Apellido Materno": "Me***",
+   "Nombres": "Le***",
+   "Escuela": "Centro Educativo Paulo Freire",
+   "Clave de participación": "N07-1648"
+ },
+ {
+   "Apellido Paterno": "Gonzalez",
+   "Apellido Materno": "Lo***",
+   "Nombres": "Di***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N07-0394"
+ },
+ {
+   "Apellido Paterno": "Jiménez",
+   "Apellido Materno": "La***",
+   "Nombres": "Ik***",
+   "Escuela": "Secundaria 5 \"Alfredo Velasco Cisneros\"",
+   "Clave de participación": "N07-1125"
+ },
+ {
+   "Apellido Paterno": "Lamas",
+   "Apellido Materno": "Ta***",
+   "Nombres": "Al***",
+   "Escuela": "Colegio Altamira Moctezuma",
+   "Clave de participación": "N07-0595"
+ },
+ {
+   "Apellido Paterno": "Martinez",
+   "Apellido Materno": "Si***",
+   "Nombres": "Er***",
+   "Escuela": "Colegio Mexico Nuevo Santa Anita",
+   "Clave de participación": "N07-0288"
+ },
+ {
+   "Apellido Paterno": "Moreno",
+   "Apellido Materno": "Ga***",
+   "Nombres": "Ge***",
+   "Escuela": "Secundaria 5 \"Alfredo Velasco Cisneros\"",
+   "Clave de participación": "N07-1127"
+ },
+ {
+   "Apellido Paterno": "Ramírez",
+   "Apellido Materno": "Ra***",
+   "Nombres": "Em***",
+   "Escuela": "Telesecundaria Mariano Jiménez ",
+   "Clave de participación": "N07-0656"
+ },
+ {
+   "Apellido Paterno": "Sánchez",
+   "Apellido Materno": "Sa***",
+   "Nombres": "Ya***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N07-0490"
+ },
+ {
+   "Apellido Paterno": "Vidal",
+   "Apellido Materno": "Es***",
+   "Nombres": "Jo***",
+   "Escuela": "Colegio Pioneros de Educación Avanzada",
+   "Clave de participación": "N07-0078"
+ },
+ {
+   "Apellido Paterno": "Anaya",
+   "Apellido Materno": "Ba***",
+   "Nombres": "Ju***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N08-0345"
+ },
+ {
+   "Apellido Paterno": "Cardenas",
+   "Apellido Materno": "Ne***",
+   "Nombres": "Iv***",
+   "Escuela": "Colegio Británico de Guadalajara",
+   "Clave de participación": "N08-0116"
+ },
+ {
+   "Apellido Paterno": "Esquer",
+   "Apellido Materno": "Ri***",
+   "Nombres": "Pa***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N08-0931"
+ },
+ {
+   "Apellido Paterno": "Hernandez",
+   "Apellido Materno": "Pe***",
+   "Nombres": "Ro***",
+   "Escuela": "Centro Educativo Paulo Freire",
+   "Clave de participación": "N08-1670"
+ },
+ {
+   "Apellido Paterno": "Hernández",
+   "Apellido Materno": "Fl***",
+   "Nombres": "Jo***",
+   "Escuela": "CEPAC",
+   "Clave de participación": "N08-0007"
+ },
+ {
+   "Apellido Paterno": "Hernández",
+   "Apellido Materno": "Ra***",
+   "Nombres": "Xi***",
+   "Escuela": "Secundaria 5 \"Alfredo Velasco Cisneros\"",
+   "Clave de participación": "N08-1137"
+ },
+ {
+   "Apellido Paterno": "Lara",
+   "Apellido Materno": "Ro***",
+   "Nombres": "No***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N08-0413"
+ },
+ {
+   "Apellido Paterno": "Leon",
+   "Apellido Materno": "Fe***",
+   "Nombres": "Er***",
+   "Escuela": "Instituto Cumbres San Javier",
+   "Clave de participación": "N08-1736"
+ },
+ {
+   "Apellido Paterno": "Licea",
+   "Apellido Materno": "To***",
+   "Nombres": "Ta***",
+   "Escuela": "Secundaria América ",
+   "Clave de participación": "N08-0659"
+ },
+ {
+   "Apellido Paterno": "Lopez",
+   "Apellido Materno": "Es***",
+   "Nombres": "Ca***",
+   "Escuela": "Gregorio Torres Quintero",
+   "Clave de participación": "N08-0227"
+ },
+ {
+   "Apellido Paterno": "López",
+   "Apellido Materno": "Ca***",
+   "Nombres": "Le***",
+   "Escuela": "Manuel Ávila Camacho",
+   "Clave de participación": "N08-0553"
+ },
+ {
+   "Apellido Paterno": "Ming Tong",
+   "Apellido Materno": "",
+   "Nombres": "Su***",
+   "Escuela": "Instituto Anahuacalli",
+   "Clave de participación": "N08-0915"
+ },
+ {
+   "Apellido Paterno": "Miranda",
+   "Apellido Materno": "Ra***",
+   "Nombres": "Al***",
+   "Escuela": "Secundaria General No.49 \"Cocollan\"",
+   "Clave de participación": "N08-0648"
+ },
+ {
+   "Apellido Paterno": "Monroy",
+   "Apellido Materno": "He***",
+   "Nombres": "Re***",
+   "Escuela": "Centro Educativo Paulo Freire",
+   "Clave de participación": "N08-1682"
+ },
+ {
+   "Apellido Paterno": "Ochoa",
+   "Apellido Materno": "Ja***",
+   "Nombres": "Ma***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N08-0439"
+ },
+ {
+   "Apellido Paterno": "Pelayo",
+   "Apellido Materno": "Cl***",
+   "Nombres": "Ev***",
+   "Escuela": "Colegio Británico de Guadalajara",
+   "Clave de participación": "N08-0120"
+ },
+ {
+   "Apellido Paterno": "Pérez",
+   "Apellido Materno": "Ro***",
+   "Nombres": "Ik***",
+   "Escuela": "Colegio Altamira Moctezuma",
+   "Clave de participación": "N08-0292"
+ },
+ {
+   "Apellido Paterno": "Regalado",
+   "Apellido Materno": "Am***",
+   "Nombres": "As***",
+   "Escuela": "Escuela general 81 lic. J. Jesús González gallo",
+   "Clave de participación": "N08-0630"
+ },
+ {
+   "Apellido Paterno": "Rossi",
+   "Apellido Materno": "Ló***",
+   "Nombres": "Sh***",
+   "Escuela": "Colegio La Paz",
+   "Clave de participación": "N08-0540"
+ },
+ {
+   "Apellido Paterno": "Ruiz Cabañas",
+   "Apellido Materno": "Lo***",
+   "Nombres": "Ma***",
+   "Escuela": "Instituto Miguel Angel De Occidente",
+   "Clave de participación": "N08-0243"
+ },
+ {
+   "Apellido Paterno": "Soto",
+   "Apellido Materno": "Pi***",
+   "Nombres": "Ab***",
+   "Escuela": "Centro Educativo Paulo Freire",
+   "Clave de participación": "N08-1668"
+ },
+ {
+   "Apellido Paterno": "Young",
+   "Apellido Materno": "Ha***",
+   "Nombres": "Ch***",
+   "Escuela": "Colegio Británico de Guadalajara",
+   "Clave de participación": "N08-0123"
+ },
+ {
+   "Apellido Paterno": "Arelano",
+   "Apellido Materno": "Ol***",
+   "Nombres": "An***",
+   "Escuela": "Escuela Secundaria Técnica 100",
+   "Clave de participación": "N09-0323"
+ },
+ {
+   "Apellido Paterno": "Bernal",
+   "Apellido Materno": "Ma***",
+   "Nombres": "Lu***",
+   "Escuela": "Escuela Secundaria Técnica 100",
+   "Clave de participación": "N09-0325"
+ },
+ {
+   "Apellido Paterno": "Bolaños",
+   "Apellido Materno": "Me***",
+   "Nombres": "Za***",
+   "Escuela": "Escuela Secundaria Técnica 96",
+   "Clave de participación": "N09-1092"
+ },
+ {
+   "Apellido Paterno": "González",
+   "Apellido Materno": "Vi***",
+   "Nombres": "Ji***",
+   "Escuela": "Colegio La Paz",
+   "Clave de participación": "N09-0548"
+ },
+ {
+   "Apellido Paterno": "Guajardo",
+   "Apellido Materno": "Ol***",
+   "Nombres": "Ro***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N09-0398"
+ },
+ {
+   "Apellido Paterno": "Guzmán",
+   "Apellido Materno": "Sá***",
+   "Nombres": "Ca***",
+   "Escuela": "Secundaria 5 \"Alfredo Velasco Cisneros\"",
+   "Clave de participación": "N09-1168"
+ },
+ {
+   "Apellido Paterno": "Hernandez",
+   "Apellido Materno": "Pe***",
+   "Nombres": "Ge***",
+   "Escuela": "Esc Secundaria Gral Carlos Enrique Castillo Peraza ",
+   "Clave de participación": "N09-0635"
+ },
+ {
+   "Apellido Paterno": "Nápoles",
+   "Apellido Materno": "Go***",
+   "Nombres": "Cl***",
+   "Escuela": "Escuela Antonio Caso Zapopan",
+   "Clave de participación": "N09-1474"
+ },
+ {
+   "Apellido Paterno": "Ortiz",
+   "Apellido Materno": "Me***",
+   "Nombres": "Je***",
+   "Escuela": "Colegio colon de Ocotlán ",
+   "Clave de participación": "N09-0646"
+ },
+ {
+   "Apellido Paterno": "Ramos",
+   "Apellido Materno": "Ta***",
+   "Nombres": "Fa***",
+   "Escuela": "Escuela Secundaria Técnica 100",
+   "Clave de participación": "N09-0327"
+ },
+ {
+   "Apellido Paterno": "Reyes",
+   "Apellido Materno": "El***",
+   "Nombres": "Ma***",
+   "Escuela": "Secundaria General #81 \"Lic. J. Jesús González Gallo\"",
+   "Clave de participación": "N09-1621"
+ },
+ {
+   "Apellido Paterno": "Torres",
+   "Apellido Materno": "Ma***",
+   "Nombres": "Fr***",
+   "Escuela": "Colegio La Paz",
+   "Clave de participación": "N09-0545"
+ },
+ {
+   "Apellido Paterno": "Valenzuela",
+   "Apellido Materno": "Fi***",
+   "Nombres": "Ma***",
+   "Escuela": "Colegio  México Nuevo campus Santa Anita ",
+   "Clave de participación": "N09-0554"
+ },
+ {
+   "Apellido Paterno": "Acevedo",
+   "Apellido Materno": "Al***",
+   "Nombres": "De***",
+   "Escuela": "Preparatoria San Jose Del Valle",
+   "Clave de participación": "N10-1786"
+ },
+ {
+   "Apellido Paterno": "Aguilar",
+   "Apellido Materno": "Pe***",
+   "Nombres": "Az***",
+   "Escuela": "Liceo del Valle",
+   "Clave de participación": "N10-0939"
+ },
+ {
+   "Apellido Paterno": "Davalos",
+   "Apellido Materno": "Ag***",
+   "Nombres": "Ma***",
+   "Escuela": "Preparatoria de la Universidad Autónoma de Guadalajara",
+   "Clave de participación": "N10-0625"
+ },
+ {
+   "Apellido Paterno": "Gutiérrez",
+   "Apellido Materno": "Gu***",
+   "Nombres": "Is***",
+   "Escuela": "Preparatoria Regional de Jalostotitlán",
+   "Clave de participación": "N10-0961"
+ },
+ {
+   "Apellido Paterno": "Murillo",
+   "Apellido Materno": "Ag***",
+   "Nombres": "Ma***",
+   "Escuela": "BACHILLERATO GENERAL ANA MARIA CASILLAS CRUZ",
+   "Clave de participación": "N10-1833"
+ },
+ {
+   "Apellido Paterno": "Ruiz Cabañas",
+   "Apellido Materno": "Lo***",
+   "Nombres": "Ar***",
+   "Escuela": "ITESO",
+   "Clave de participación": "N10-0242"
+ },
+ {
+   "Apellido Paterno": "Serrano",
+   "Apellido Materno": "Áv***",
+   "Nombres": "Sa***",
+   "Escuela": "Preparatoria México",
+   "Clave de participación": "N10-0976"
+ },
+ {
+   "Apellido Paterno": "Toscano",
+   "Apellido Materno": "De***",
+   "Nombres": "Ca***",
+   "Escuela": "Conalep Tapalpa ",
+   "Clave de participación": "N10-1370"
+ },
+ {
+   "Apellido Paterno": "Vallejo",
+   "Apellido Materno": "Ló***",
+   "Nombres": "Jo***",
+   "Escuela": "Escuela Preparatoria Regional De San Miguel El Alto",
+   "Clave de participación": "N10-1371"
+ },
+ {
+   "Apellido Paterno": "Gálvez",
+   "Apellido Materno": "Ri***",
+   "Nombres": "Ál***",
+   "Escuela": "Cervantes Costa Rica",
+   "Clave de participación": "N11-0658"
+ },
+ {
+   "Apellido Paterno": "Hernández",
+   "Apellido Materno": "Sá***",
+   "Nombres": "Lu***",
+   "Escuela": "BACHILLERATO GENERAL ANA MARÍA CASILLAS CRUZ",
+   "Clave de participación": "N11-1768"
+ },
+ {
+   "Apellido Paterno": "Martinez",
+   "Apellido Materno": "Ch***",
+   "Nombres": "El***",
+   "Escuela": "ITESM",
+   "Clave de participación": "N11-1886"
+ },
+ {
+   "Apellido Paterno": "Mireles",
+   "Apellido Materno": "Go***",
+   "Nombres": "Di***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N11-0430"
+ },
+ {
+   "Apellido Paterno": "Moreno",
+   "Apellido Materno": "Ca***",
+   "Nombres": "Cr***",
+   "Escuela": "Independiente",
+   "Clave de participación": "N11-0871"
+ },
+ {
+   "Apellido Paterno": "Sandoval",
+   "Apellido Materno": "Gu***",
+   "Nombres": "Le***",
+   "Escuela": "CEDI",
+   "Clave de participación": "N11-0491"
+ },
+ {
+   "Apellido Paterno": "Aguirre",
+   "Apellido Materno": "Ca***",
+   "Nombres": "Ma***",
+   "Escuela": "CETI Colomos",
+   "Clave de participación": "N12-1197"
+ },
+ {
+   "Apellido Paterno": "Alvarado",
+   "Apellido Materno": "Sa***",
+   "Nombres": "Os***",
+   "Escuela": "Escuela Preparatoria N°15",
+   "Clave de participación": "N12-0740"
+ },
+ {
+   "Apellido Paterno": "Barragán",
+   "Apellido Materno": "Me***",
+   "Nombres": "Lu***",
+   "Escuela": "Villa de los niños",
+   "Clave de participación": "N12-2010"
+ },
+ {
+   "Apellido Paterno": "Domínguez",
+   "Apellido Materno": "Gó***",
+   "Nombres": "An***",
+   "Escuela": "Preparatoria Regional de Tepatitlán, Módulo Yahualica",
+   "Clave de participación": "N12-1763"
+ },
+ {
+   "Apellido Paterno": "González",
+   "Apellido Materno": "Fl***",
+   "Nombres": "Fe***",
+   "Escuela": "Escuela Preparatoria Regional De San Miguel El Alto",
+   "Clave de participación": "N12-1871"
+ },
+ {
+   "Apellido Paterno": "Munguia",
+   "Apellido Materno": "Ma***",
+   "Nombres": "La***",
+   "Escuela": "Escuela Preparatoria Regional de Zapotiltic",
+   "Clave de participación": "N12-1116"
+ },
+ {
+   "Apellido Paterno": "Naranjo",
+   "Apellido Materno": "Gó***",
+   "Nombres": "Da***",
+   "Escuela": "Preparatoria México",
+   "Clave de participación": "N12-0986"
+ },
+ {
+   "Apellido Paterno": "Orozco",
+   "Apellido Materno": "Se***",
+   "Nombres": "Jo***",
+   "Escuela": "CEI Paulo Freire",
+   "Clave de participación": "N12-1877"
+ },
+ {
+   "Apellido Paterno": "Rodriguez",
+   "Apellido Materno": "Ma***",
+   "Nombres": "Ab***",
+   "Escuela": "Escuela Preparatoria de Tonalá “Dra. Ruth Padilla Muñoz”",
+   "Clave de participación": "N12-0965"
+ },
+ {
+   "Apellido Paterno": "Sánchez",
+   "Apellido Materno": "Ch***",
+   "Nombres": "Ia***",
+   "Escuela": "Escuela Preparatoria N°8",
+   "Clave de participación": "N12-0757"
+ },
+ {
+   "Apellido Paterno": "Torres",
+   "Apellido Materno": "Ol***",
+   "Nombres": "Ju***",
+   "Escuela": "Centro Educativo Muralistas Mexicanos",
+   "Clave de participación": "N12-1220"
+ }
+]

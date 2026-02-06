@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANPM Inicio</title>
+    <link rel="icon" href="Black.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav class="nav-center">
+        <div class="nav-header">
+            <img src="Logo-ANPM.svg" alt="logo" class="logo">
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <ul class="links">
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="jornada.html">Jornada</a>
+            </li>
+            <li>
+              <a href="Olimpiada.html">XXVI ONMAPS</a>
+            </li>
+            <li>
+              <a href="Padres.html">Padres</a>
+            </li>
+          </ul>
+        <!-- social media -->
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.facebook.com/ONMAPSJalisco?mibextid=LQQJ4d" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+    </nav>
+</section>
+<section>
+    <div class="logar zoom-in-out-box">
+    <img src="Black.png" width="150px" height="150px"/>
+    </div>
+</section>
+<section>
+    <div class="let">
+        <h1>ANPM</h1>
+        <p>¡Bienvenidos a nuestra página web!</p>
+        <p style="text-align: justify;">Nuestra misión es clara y apasionante: fomentar el amor por las matemáticas y apoyar a los docentes y estudiantes en su viaje matemático.
+        </p>
+        <p style="text-align: justify;">Estamos dedicados a ayudar a los docentes a descubrir y adoptar metodologías innovadoras que transformen la enseñanza de las matemáticas en algo emocionante y accesible para todos. Creemos que con las herramientas adecuadas, cada aula puede convertirse en un lugar donde el aprendizaje matemático se vuelva una experiencia estimulante y significativa.
+        </p>
+        <p style="text-align: justify;">En segundo lugar, nos enfocamos en las Olimpiadas de Matemáticas, organizando y promoviendo competiciones que motivan a los alumnos de educación básica y bachillerato a explorar las maravillas de las matemáticas.
+        </p>
+        <p style="text-align: justify;" >Nuestro objetivo es despertar el interés y el entusiasmo en los jóvenes, mostrando que las matemáticas no solo son fundamentales, sino también fascinantes.</p>
+        <p>¡Esperamos que te inspires, te conectes y te unas a nosotros en esta emocionante aventura matemática!</p>
+        <p style="padding-bottom: 50px;"><b>¡Bienvenido y feliz exploración!</b></p>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-content">
+      <p><a href="mailto:anpmjal@gmail.com?Subject=Interesado%20en%20contactar" style="display: inline-block;">Contactar por correo</a></p>
+      <p id="fecha-y-hora"></p>
+    </div>
+    <script>
+      function updateDateTime() {
+        const date = new Date();
+        const hours = String(date.getHours()).padStart(2, '0');
+        const minutes = String(date.getMinutes()).padStart(2, '0');
+        const seconds = String(date.getSeconds()).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const year = date.getFullYear();
+        document.getElementById('fecha-y-hora').innerHTML = `Fecha: ${day}/${month}/${year} - Hora: ${hours}:${minutes}:${seconds}`;
+      }
+      setInterval(updateDateTime, 1000);
+      updateDateTime(); // Initial call to display immediately
+    </script>
+  </footer>
+    <script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const links = document.querySelector('.links');
+    
+      navToggle.addEventListener('click', () => {
+        links.classList.toggle('show-links');
+      });
+    </script>
+</body>
+</html>

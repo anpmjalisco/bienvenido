@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XXVI ONMAPS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <link rel="icon" href="Black.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="estilo_1.css" />
+</head>
+
+<body>
+  <nav class="nav-center">
+    <div class="nav-header">
+      <img src="Logo-ANPM.svg" alt="logo" class="logo">
+      <button class="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <ul class="links">
+      <li>
+        <a href="index.html">Inicio</a>
+      </li>
+      <li>
+        <a href="jornada.html">Jornada</a>
+      </li>
+      <li>
+        <a href="Olimpiada.html">XXVI ONMAPS</a>
+      </li>
+      <li>
+        <a href="Padres.html">Padres</a>
+      </li>
+    </ul>
+    <!-- social media -->
+    <ul class="social-icons">
+      <li>
+        <a href="https://www.facebook.com/ONMAPSJalisco?mibextid=LQQJ4d" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  </nav>
+  <section>
+    <div class="logar zoom-in-out-box">
+      <img src="Black.png" width="150px" height="150px" />
+    </div>
+  </section>
+
+  <section>
+    <div class="let">
+      <h1>XXVI ONMAPSyB</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="let">
+      <p style="color: crimson; font-size: 35px;"><b>Alumnos</b></p>
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <dotlottie-wc id="animacion" src="https://lottie.host/36eda63f-cb68-452d-962e-20e8cd046155/DuMrsnVE7H.lottie"
+          style="width: 300px;height: 300px" speed="0.7" autoplay loop="false"></dotlottie-wc>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección para los botones modales - ORGANIZADOS VERTICALMENTE -->
+  <section>
+    <div class="let">
+      <p style="color: crimson; font-size: 35px;"><b>Ganadores de la XXVI ONMAPSyB</b></p>
+      <div class="winners-buttons">
+        <!-- Botón Primer Lugar -->
+        <button class="winner-btn btn-gold" onclick="openWinnerModal('primer')">
+          🥇 Primer Lugar
+        </button>
+        <!-- Botón Segundo Lugar -->
+        <button class="winner-btn btn-silver" onclick="openWinnerModal('segundo')">
+          🥈 Segundo Lugar
+        </button>
+        <!-- Botón Tercer Lugar -->
+        <button class="winner-btn btn-bronze" onclick="openWinnerModal('tercer')">
+          🥉 Tercer Lugar
+        </button>
+      </div>
+    </div>
+  </section>
+  <section style="padding-bottom: 20px;">
+    <marquee direction="left"
+      style="color: red; font-family: Arial; background-color: bisque; font-size: 28px; font-weight: bold;">Se les
+      recuerda que este sábado 7 de febrero tendremos el selectivo...</marquee>
+  </section>
+
+  <!-- Modal Primer Lugar -->
+  <div id="primerModal" class="custom-modal">
+    <div class="custom-modal-content">
+      <span class="custom-close" onclick="closeModal('primer')">&times;</span>
+      <h3 class="modal-title">🥇 Primer Lugar</h3>
+      <div id="primerTablaContainer" class="tabla-container">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Apellido Paterno</th>
+              <th>Apellido Materno</th>
+              <th>Nombres</th>
+              <th>Escuela</th>
+              <th>Clave</th>
+            </tr>
+          </thead>
+          <tbody id="primerTablaBody"></tbody>
+        </table>
+      </div>
+      <button class="btn btn-secondary" onclick="closeModal('primer')">Cerrar</button>
+    </div>
+  </div>
+
+  <!-- Modal Segundo Lugar -->
+  <div id="segundoModal" class="custom-modal">
+    <div class="custom-modal-content">
+      <span class="custom-close" onclick="closeModal('segundo')">&times;</span>
+      <h3 class="modal-title">🥈 Segundo Lugar</h3>
+      <div id="segundoTablaContainer" class="tabla-container">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Apellido Paterno</th>
+              <th>Apellido Materno</th>
+              <th>Nombres</th>
+              <th>Escuela</th>
+              <th>Clave</th>
+            </tr>
+          </thead>
+          <tbody id="segundoTablaBody"></tbody>
+        </table>
+      </div>
+      <button class="btn btn-secondary" onclick="closeModal('segundo')">Cerrar</button>
+    </div>
+  </div>
+
+  <!-- Modal Tercer Lugar -->
+  <div id="tercerModal" class="custom-modal">
+    <div class="custom-modal-content">
+      <span class="custom-close" onclick="closeModal('tercer')">&times;</span>
+      <h3 class="modal-title">🥉 Tercer Lugar</h3>
+      <div id="tercerTablaContainer" class="tabla-container">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Apellido Paterno</th>
+              <th>Apellido Materno</th>
+              <th>Nombres</th>
+              <th>Escuela</th>
+              <th>Clave</th>
+            </tr>
+          </thead>
+          <tbody id="tercerTablaBody"></tbody>
+        </table>
+      </div>
+      <button class="btn btn-secondary" onclick="closeModal('tercer')">Cerrar</button>
+    </div>
+  </div>
+
+  <section style="background-color: bisque;">
+    <div class="let">
+      <p style="color: crimson; font-size: 35px;"><b>Fechas:</b></p>
+      <ul style="text-align: left; list-style-type: square;">
+        <li><strong>31/08/2025</strong> Publicación de convocatoria XXVI ONMAPSyB. <br> La inscripción cierra el
+          30/09/2025. ✅
+        </li>
+        <li><strong>4/10/2025</strong> Eliminatoria Virtual de 9:00 a 11:00 de la mañana. ✅</li>
+        <li><strong>22/11/2025</strong> Eliminatoria estatal de manera presencial de 9:00 a 11:00 de la mañana. ✅</li>
+        <li><strong>29/11/2025</strong> Premiación Fase estatal de manera presencial. ✅</li>
+        <li><strong>07/02/2026</strong> Primer Selectivo horario de 9:00 a 11:00 de la mañana. </li>
+        <li><strong>Entre 20/03/2026 y 22/03/2025</strong> Segundo Selectivo</li>
+        <li><strong>Olimpiada Nacional</strong></li>
+      </ul>
+      <a href="https://chat.whatsapp.com/JJHxk6WuZAeHvZBXaJ4II5?mode=ems_copy_t" target="_blank">
+        <i class="fa-brands fa-square-whatsapp" style="margin-right: 10px; font-size:70px; color:rgb(38, 190, 33)"></i>
+      </a>
+    </div>
+  </section>
+  <div class="let">
+    <p style="color: blue;" >Recuerda que seremos anfitriones de la <br><b>Olimpiada Nacional</b> este año.</p>
+    <img src="jal.png" width="320px" height="auto" />
+  </div>
+  <section>
+    <div class="let">
+      <p>Si te interesa pertenecer al grupo de <b>ANPM</b> lo puedes hacer uniendote al grupo de <b>whatsapp</b></p>
+      <p>Este grupo de <b>whatsapp</b> es de docentes interesados a participar en la <b>ANPM</b>, en el caso de padres
+        favor de estar al pendiente
+        de la sección de <b>Padres</b>.</p>
+      <a href="https://chat.whatsapp.com/JJHxk6WuZAeHvZBXaJ4II5?mode=ems_copy_t" target="_blank">
+        <i class="fa-brands fa-whatsapp" style="margin-right: 10px; font-size:70px; color:rgb(38, 190, 33)"></i>
+      </a>
+      <p style="font-size: 18px;">Dar click en el ícono</p>
+    </div>
+  </section>
+  <br>
+  <br>
+
+  <section>
+    <footer class="footer">
+      <div class="footer-content">
+        <p><a href="mailto:anpmjal@gmail.com?Subject=Interesado%20en%20contactar"
+            style="display: inline-block;">Contactar por correo</a></p>
+        <p id="fecha-y-hora"></p>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+  <script type="module">
+    window.addEventListener('DOMContentLoaded', () => {
+      const anim = document.getElementById('animacion');
+      anim.addEventListener('complete', () => {
+        anim.pause();
+      });
+    });
+  </script>
+
+  <script>
+    // Navegación responsive
+    const navToggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.links');
+    navToggle.addEventListener('click', () => {
+      links.classList.toggle('show-links');
+    });
+
+    // Fecha y hora
+    function updateDateTime() {
+      const date = new Date();
+      const hours = String(date.getHours()).padStart(2, '0');
+      const minutes = String(date.getMinutes()).padStart(2, '0');
+      const seconds = String(date.getSeconds()).padStart(2, '0');
+      const day = String(date.getDate()).padStart(2, '0');
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const year = date.getFullYear();
+      document.getElementById('fecha-y-hora').innerHTML = `Fecha: ${day}/${month}/${year} - Hora: ${hours}:${minutes}:${seconds}`;
+    }
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+
+    // Configuración de los archivos JSON para cada modal
+    const configModales = {
+      'primer': {
+        jsonFile: 'Primero.json',
+        titulo: '🥇 Primer Lugar',
+        tablaBodyId: 'primerTablaBody'
+      },
+      'segundo': {
+        jsonFile: 'Segundo.json',
+        titulo: '🥈 Segundo Lugar',
+        tablaBodyId: 'segundoTablaBody'
+      },
+      'tercer': {
+        jsonFile: 'Tercero.json',
+        titulo: '🥉 Tercer Lugar',
+        tablaBodyId: 'tercerTablaBody'
+      }
+    };
+
+    // Variable para rastrear si ya se cargaron los datos
+    const datosCargados = {
+      primer: false,
+      segundo: false,
+      tercer: false
+    };
+
+    // Función para abrir cualquier modal (ESTA ES LA QUE SE USA)
+    async function openWinnerModal(modalType) {
+      const config = configModales[modalType];
+
+      console.log(`Abriendo modal: ${modalType}, archivo: ${config.jsonFile}`);
+
+      // Solo cargar datos si no se han cargado antes
+      if (!datosCargados[modalType]) {
+        await cargarDatosModal(config.jsonFile, config.tablaBodyId);
+        datosCargados[modalType] = true;
+      }
+
+      // Mostrar el modal
+      document.getElementById(modalType + 'Modal').style.display = 'block';
+    }
+
+    // Función para cargar datos en cualquier modal
+    async function cargarDatosModal(jsonFile, tablaBodyId) {
+      const tablaBody = document.getElementById(tablaBodyId);
+
+      try {
+        // Mostrar mensaje de carga
+        tablaBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 20px;">Cargando datos...</td></tr>';
+
+        console.log(`Intentando cargar: ${jsonFile}`);
+
+        // Cargar datos desde el archivo JSON
+        const response = await fetch(jsonFile);
+
+        // Verificar si el archivo existe
+        if (!response.ok) {
+          throw new Error(`No se pudo cargar el archivo: ${jsonFile} (Status: ${response.status})`);
+        }
+
+        const datos = await response.json();
+        console.log(`Datos cargados de ${jsonFile}:`, datos);
+
+        // Limpiar tabla
+        tablaBody.innerHTML = '';
+
+        // Verificar si hay datos
+        if (!datos || datos.length === 0) {
+          tablaBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 20px;">No hay datos disponibles</td></tr>';
+          return;
+        }
+
+        // Crear filas con los datos
+        datos.forEach((participante, index) => {
+          const fila = document.createElement('tr');
+
+          fila.innerHTML = `
+            <td>${participante["Apellido Paterno"] || ''}</td>
+            <td>${participante["Apellido Materno"] || ''}</td>
+            <td>${participante["Nombres"] || ''}</td>
+            <td>${participante["Escuela"] || ''}</td>
+            <td>${participante["Clave de participación"] || ''}</td>
+          `;
+
+          tablaBody.appendChild(fila);
+        });
+
+        console.log(`Datos cargados correctamente desde: ${jsonFile}, ${datos.length} registros`);
+
+      } catch (error) {
+        console.error(`Error al cargar ${jsonFile}:`, error);
+        tablaBody.innerHTML = `
+          <tr>
+            <td colspan="5" style="text-align: center; color: red; padding: 20px;">
+              Error al cargar los datos: ${error.message}<br>
+              <small>Asegúrate de que el archivo ${jsonFile} esté en la misma carpeta.</small>
+            </td>
+          </tr>
+        `;
+      }
+    }
+
+    // Función para cerrar cualquier modal
+    function closeModal(modalType) {
+      document.getElementById(modalType + 'Modal').style.display = 'none';
+    }
+
+    // Cerrar modales al hacer clic fuera de ellos
+    window.onclick = function (event) {
+      const modales = ['primer', 'segundo', 'tercer'];
+
+      // Cerrar modales al hacer clic fuera del contenido
+      modales.forEach(modalType => {
+        const modal = document.getElementById(modalType + 'Modal');
+        if (event.target === modal) {
+          closeModal(modalType);
+        }
+      });
+
+      // También cerrar al hacer clic en las X
+      const closes = document.querySelectorAll('.custom-close');
+      closes.forEach(closeBtn => {
+        if (event.target === closeBtn) {
+          const modal = closeBtn.closest('.custom-modal');
+          modal.style.display = 'none';
+        }
+      });
+    }
+
+    // Cargar datos iniciales (opcional - para pruebas)
+    document.addEventListener('DOMContentLoaded', () => {
+      console.log('Página cargada, listo para mostrar modales');
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
