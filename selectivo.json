@@ -1,0 +1,506 @@
+[
+ {
+   "Nombres": "Andrey Alejandro",
+   "Apellido 1": "Ay***",
+   "Apellido 2": "Es***",
+   "Escuela": "CEPAC",
+   "Clave": "N01-0062"
+ },
+ {
+   "Nombres": "Jenaro",
+   "Apellido 1": "Mo***",
+   "Apellido 2": "Or***",
+   "Escuela": "CEPAC",
+   "Clave": "N01-0624"
+ },
+ {
+   "Nombres": "Victoria Belén",
+   "Apellido 1": "Va***",
+   "Apellido 2": "To***",
+   "Escuela": "Copilli",
+   "Clave": "N01-0812"
+ },
+ {
+   "Nombres": "Alejandro",
+   "Apellido 1": "Or***",
+   "Apellido 2": "Ag***",
+   "Escuela": "Instituto Anahuacalli",
+   "Clave": "N01-0886"
+ },
+ {
+   "Nombres": "Pablo",
+   "Apellido 1": "Vi***",
+   "Apellido 2": "Lo***",
+   "Escuela": "Instituto Anahuacalli",
+   "Clave": "N01-0888"
+ },
+ {
+   "Nombres": "Santiago",
+   "Apellido 1": "Gu***",
+   "Apellido 2": "Lo***",
+   "Escuela": "Instituto Anahuacalli",
+   "Clave": "N01-0890"
+ },
+ {
+   "Nombres": "Said Fernando",
+   "Apellido 1": "Va***",
+   "Apellido 2": "Av***",
+   "Escuela": "Independiente",
+   "Clave": "N02-0012"
+ },
+ {
+   "Nombres": "Emiliano",
+   "Apellido 1": "De***",
+   "Apellido 2": "So***",
+   "Escuela": "CEDI",
+   "Clave": "N02-0374"
+ },
+ {
+   "Nombres": "Matias",
+   "Apellido 1": "He***",
+   "Apellido 2": "Vi***",
+   "Escuela": "CEDI",
+   "Clave": "N02-0403"
+ },
+ {
+   "Nombres": "Damian",
+   "Apellido 1": "Lo***",
+   "Apellido 2": "Ma***",
+   "Escuela": "CEDI",
+   "Clave": "N02-0419"
+ },
+ {
+   "Nombres": "Ernesto Alejandro",
+   "Apellido 1": "Vá***",
+   "Apellido 2": "Mo***",
+   "Escuela": "J. Jesus González Gallo",
+   "Clave": "N02-0647"
+ },
+ {
+   "Nombres": "Valeria",
+   "Apellido 1": "He***",
+   "Apellido 2": "To***",
+   "Escuela": "Instituto Anahuacalli",
+   "Clave": "N02-0892"
+ },
+ {
+   "Nombres": "Sebastian Rafael",
+   "Apellido 1": "Te***",
+   "Apellido 2": "Lo***",
+   "Escuela": "Instituto Anahuacalli",
+   "Clave": "N02-0898"
+ },
+ {
+   "Nombres": "Natan Alek",
+   "Apellido 1": "Ga***",
+   "Apellido 2": "Fl***",
+   "Escuela": "CEPAC",
+   "Clave": "N03-0000"
+ },
+ {
+   "Nombres": "Juan Pablo",
+   "Apellido 1": "Za***",
+   "Apellido 2": "Pa***",
+   "Escuela": "Colegio La Paz",
+   "Clave": "N03-0174"
+ },
+ {
+   "Nombres": "Ray Gabriel",
+   "Apellido 1": "Re***",
+   "Apellido 2": "Al***",
+   "Escuela": "CEPAC",
+   "Clave": "N03-0178"
+ },
+ {
+   "Nombres": "Sofia Elizabeth",
+   "Apellido 1": "Go***",
+   "Apellido 2": "Ce***",
+   "Escuela": "CEDI",
+   "Clave": "N03-0392"
+ },
+ {
+   "Nombres": "Abner Rafael",
+   "Apellido 1": "Or***",
+   "Apellido 2": "Mu***",
+   "Escuela": "CEDI",
+   "Clave": "N03-0440"
+ },
+ {
+   "Nombres": "Rodrigo",
+   "Apellido 1": "Ar***",
+   "Apellido 2": "Sa***",
+   "Escuela": "Instituto Anahuacalli",
+   "Clave": "N03-0899"
+ },
+ {
+   "Nombres": "Rafael",
+   "Apellido 1": "Sa***",
+   "Apellido 2": "Gó***",
+   "Escuela": "Primaria J. Jesús González Gallo",
+   "Clave": "N03-1222"
+ },
+ {
+   "Nombres": "Andrés",
+   "Apellido 1": "Sa***",
+   "Apellido 2": "Ce***",
+   "Escuela": "Instituto Cumbres San Javier",
+   "Clave": "N03-1749"
+ },
+ {
+   "Nombres": "Leonel",
+   "Apellido 1": "Av***",
+   "Apellido 2": "Ec***",
+   "Escuela": "CEPAC",
+   "Clave": "N04-0267"
+ },
+ {
+   "Nombres": "Matthias Ikan",
+   "Apellido 1": "Fl***",
+   "Apellido 2": "La***",
+   "Escuela": "Colegio Aleman",
+   "Clave": "N04-0872"
+ },
+ {
+   "Nombres": "José Guillermo",
+   "Apellido 1": "De***",
+   "Apellido 2": "Ib***",
+   "Escuela": "Liceo del Valle",
+   "Clave": "N04-1038"
+ },
+ {
+   "Nombres": "Guillermo",
+   "Apellido 1": "Fl***",
+   "Apellido 2": "Ma***",
+   "Escuela": "Liceo del Valle",
+   "Clave": "N04-1053"
+ },
+ {
+   "Nombres": "Eduardo Mateo",
+   "Apellido 1": "Al***",
+   "Apellido 2": "Za***",
+   "Escuela": "Instituto Anglo Francés Santa Anita",
+   "Clave": "N04-1410"
+ },
+ {
+   "Nombres": "Karla Sofia",
+   "Apellido 1": "Ru***",
+   "Apellido 2": "Ch***",
+   "Escuela": "Instituto Colón",
+   "Clave": "N05-0050"
+ },
+ {
+   "Nombres": "Angela",
+   "Apellido 1": "Lo***",
+   "Apellido 2": "Ro***",
+   "Escuela": "CEDI",
+   "Clave": "N05-0420"
+ },
+ {
+   "Nombres": "Paola",
+   "Apellido 1": "Ri***",
+   "Apellido 2": "Qu***",
+   "Escuela": "CEDI",
+   "Clave": "N05-0472"
+ },
+ {
+   "Nombres": "Regina Lizbeth",
+   "Apellido 1": "Ro***",
+   "Apellido 2": "Pe***",
+   "Escuela": "CEDI",
+   "Clave": "N05-0477"
+ },
+ {
+   "Nombres": "Renata",
+   "Apellido 1": "Za***",
+   "Apellido 2": "Ra***",
+   "Escuela": "CEDI",
+   "Clave": "N05-0505"
+ },
+ {
+   "Nombres": "Baruc Mateo",
+   "Apellido 1": "Qu***",
+   "Apellido 2": "Ra***",
+   "Escuela": "CEPAC",
+   "Clave": "N05-0570"
+ },
+ {
+   "Nombres": "Constanza",
+   "Apellido 1": "Es***",
+   "Apellido 2": "Ba***",
+   "Escuela": "Colegio Mocel",
+   "Clave": "N05-0852"
+ },
+ {
+   "Nombres": "Matteo",
+   "Apellido 1": "Al***",
+   "Apellido 2": "Be***",
+   "Escuela": "Colegio Riverside",
+   "Clave": "N06-0019"
+ },
+ {
+   "Nombres": "Juan Pablo",
+   "Apellido 1": "Ló***",
+   "Apellido 2": "Va***",
+   "Escuela": "Lázaro Cárdenas del Río",
+   "Clave": "N06-0220"
+ },
+ {
+   "Nombres": "Vannia Ximena",
+   "Apellido 1": "Gu***",
+   "Apellido 2": "Vá***",
+   "Escuela": "CEPAC",
+   "Clave": "N06-0228"
+ },
+ {
+   "Nombres": "Sara Itati",
+   "Apellido 1": "Am***",
+   "Apellido 2": "Ba***",
+   "Escuela": "CEDI",
+   "Clave": "N06-0344"
+ },
+ {
+   "Nombres": "Santiago",
+   "Apellido 1": "Go***",
+   "Apellido 2": "Qu***",
+   "Escuela": "Liceo del Valle",
+   "Clave": "N06-0935"
+ },
+ {
+   "Nombres": "Javier Emmanuel",
+   "Apellido 1": "Ga***",
+   "Apellido 2": "Go***",
+   "Escuela": "Escuela Secundaria Técnica 51",
+   "Clave": "N07-0038"
+ },
+ {
+   "Nombres": "Francisco Xavier",
+   "Apellido 1": "Ma***",
+   "Apellido 2": "Ca***",
+   "Escuela": "CEPAC",
+   "Clave": "N07-0079"
+ },
+ {
+   "Nombres": "Luis Fernando",
+   "Apellido 1": "Ri***",
+   "Apellido 2": "Vá***",
+   "Escuela": "Secundaria \"República Italiana\"",
+   "Clave": "N07-1259"
+ },
+ {
+   "Nombres": "Josue Caleb",
+   "Apellido 1": "Sa***",
+   "Apellido 2": "Ro***",
+   "Escuela": "Centro Educativo Paulo Freire",
+   "Clave": "N07-1655"
+ },
+ {
+   "Nombres": "Eduardo",
+   "Apellido 1": "Ma***",
+   "Apellido 2": "Pé***",
+   "Escuela": "Instituto Cumbres San Javier",
+   "Clave": "N07-1746"
+ },
+ {
+   "Nombres": "Pablo",
+   "Apellido 1": "Sa***",
+   "Apellido 2": "Ol***",
+   "Escuela": "Secundaria Técnica 25",
+   "Clave": "N08-0010"
+ },
+ {
+   "Nombres": "David\nEmmanuel",
+   "Apellido 1": "Ro***\nZa***",
+   "Apellido 2": "Me***\nPa***",
+   "Escuela": "Escuela Secundaria Técnica 100\nColegio La Paz",
+   "Clave": "N08-0021\nN08-0175"
+ },
+ {
+   "Nombres": "David Matteo",
+   "Apellido 1": "Hu***",
+   "Apellido 2": "Ma***",
+   "Escuela": "CEDI",
+   "Clave": "N08-0407"
+ },
+ {
+   "Nombres": "Mauro Alexander",
+   "Apellido 1": "To***",
+   "Apellido 2": "Fl***",
+   "Escuela": "Clairmont School",
+   "Clave": "N08-0573"
+ },
+ {
+   "Nombres": "Getsemaní",
+   "Apellido 1": "Ju***",
+   "Apellido 2": "Ba***",
+   "Escuela": "Secundaria Técnica 10",
+   "Clave": "N09-0039"
+ },
+ {
+   "Nombres": "Felix Ignacio",
+   "Apellido 1": "Le***",
+   "Apellido 2": "Ga***",
+   "Escuela": "MATILDE MONTOYA LAFRAGUA",
+   "Clave": "N09-0289"
+ },
+ {
+   "Nombres": "Luis Fernando",
+   "Apellido 1": "Ib***",
+   "Apellido 2": "Du***",
+   "Escuela": "Foránea #94 Juan Manuel Estrella del C",
+   "Clave": "N09-0517"
+ },
+ {
+   "Nombres": "Diego Alejandro",
+   "Apellido 1": "Ru***",
+   "Apellido 2": "Gó***",
+   "Escuela": "Secundaria General No.49 \"Cocollan\"",
+   "Clave": "N09-0846"
+ },
+ {
+   "Nombres": "Sophia Alejandra",
+   "Apellido 1": "Na***",
+   "Apellido 2": "Es***",
+   "Escuela": "Independiente",
+   "Clave": "N09-1120"
+ },
+ {
+   "Nombres": "Sergio",
+   "Apellido 1": "Sa***",
+   "Apellido 2": "Si***",
+   "Escuela": "Instituto Cumbres San Javier",
+   "Clave": "N09-1727"
+ },
+ {
+   "Nombres": "Naomi Narayana",
+   "Apellido 1": "Ra***",
+   "Apellido 2": "Ta***",
+   "Escuela": "Colegio Franciscano Santa Anita",
+   "Clave": "N10-0006"
+ },
+ {
+   "Nombres": "Adriana Alejandra",
+   "Apellido 1": "Ra***",
+   "Apellido 2": "Co***",
+   "Escuela": "Escuela Regional de Educacion Media S",
+   "Clave": "N10-0033"
+ },
+ {
+   "Nombres": "Mariana Lucina",
+   "Apellido 1": "Ra***",
+   "Apellido 2": "Ra***",
+   "Escuela": "CEDI",
+   "Clave": "N10-0466"
+ },
+ {
+   "Nombres": "Camila Esmeralda",
+   "Apellido 1": "Ri***",
+   "Apellido 2": "Ro***",
+   "Escuela": "CEDI",
+   "Clave": "N10-0473"
+ },
+ {
+   "Nombres": "Itzayana Corazón De María",
+   "Apellido 1": "Pe***",
+   "Apellido 2": "Fl***",
+   "Escuela": "CETI Colomos",
+   "Clave": "N10-0577"
+ },
+ {
+   "Nombres": "Luis Carlos",
+   "Apellido 1": "Ji***",
+   "Apellido 2": "Ru***",
+   "Escuela": "CBTis 226",
+   "Clave": "N10-0579"
+ },
+ {
+   "Nombres": "Miguel",
+   "Apellido 1": "Co***",
+   "Apellido 2": "Go***",
+   "Escuela": "preparatoria UDG modulo Atequiza",
+   "Clave": "N10-0856"
+ },
+ {
+   "Nombres": "Mayte",
+   "Apellido 1": "Lo***",
+   "Apellido 2": "Lo***",
+   "Escuela": "Escuela preparatoria N°5",
+   "Clave": "N11-0011"
+ },
+ {
+   "Nombres": "Miguel Ungadi",
+   "Apellido 1": "Co***",
+   "Apellido 2": "Va***",
+   "Escuela": "Prepa Tec Campus Guadalajara",
+   "Clave": "N11-0238"
+ },
+ {
+   "Nombres": "Gauss",
+   "Apellido 1": "Be***",
+   "Apellido 2": "Re***",
+   "Escuela": "CEDI",
+   "Clave": "N11-0354"
+ },
+ {
+   "Nombres": "Sebastián",
+   "Apellido 1": "Ve***",
+   "Apellido 2": "Ce***",
+   "Escuela": "Prepa Tec Campus Guadalajara",
+   "Clave": "N11-0583"
+ },
+ {
+   "Nombres": "Yuleymi Yaretzi",
+   "Apellido 1": "Nu***",
+   "Apellido 2": "Ca***",
+   "Escuela": "Independiente",
+   "Clave": "N11-1459"
+ },
+ {
+   "Nombres": "André Maximiliano",
+   "Apellido 1": "Ca***",
+   "Apellido 2": "Ji***",
+   "Escuela": "Colegio Miguel de Bolonia",
+   "Clave": "N11-1766"
+ },
+ {
+   "Nombres": "Juan Manuel",
+   "Apellido 1": "De***",
+   "Apellido 2": "Al***",
+   "Escuela": "Instituto Francisco Orozco y Jimenez",
+   "Clave": "N12-0014"
+ },
+ {
+   "Nombres": "Sebastian",
+   "Apellido 1": "Ya***",
+   "Apellido 2": "Ib***",
+   "Escuela": "CEDI",
+   "Clave": "N12-0502"
+ },
+ {
+   "Nombres": "Efren Ramses",
+   "Apellido 1": "Fl***",
+   "Apellido 2": "Na***",
+   "Escuela": "CETI Colomos",
+   "Clave": "N12-1193"
+ },
+ {
+   "Nombres": "Arizbeth Gizeé",
+   "Apellido 1": "Ru***",
+   "Apellido 2": "Pl***",
+   "Escuela": "CETI Colomos",
+   "Clave": "N12-1194"
+ },
+ {
+   "Nombres": "César Andriy",
+   "Apellido 1": "Sa***",
+   "Apellido 2": "Ji***",
+   "Escuela": "CETI Tonalá",
+   "Clave": "N12-1479"
+ },
+ {
+   "Nombres": "Yahir",
+   "Apellido 1": "Va***",
+   "Apellido 2": "Pa***",
+   "Escuela": "Preparatoria San Jose Del Valle",
+   "Clave": "N12-1777"
+ }
+]
