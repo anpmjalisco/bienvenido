@@ -833,48 +833,31 @@ input {
     /* Centra el contenedor completo en la página */
 }
 
-/* Estilo del Botón */
-#btnAbrir {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #4f46e5;
-    color: white;
-    border-radius: 30px;
-    border-color: #4f46e5;
-}
-
-/* Estilo del Modal (Fondo oscuro) */
-.modal {
-    display: none;
-    /* Oculto por defecto */
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    /* Negro con opacidad */
-}
-
 /* Contenido del modal (Imagen) */
 .modal-content {
     display: block;
     margin: auto;
-    margin-top: 5%;
-    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    max-width: 90%;
+    max-height: 90%;
     height: auto;
+    object-fit: contain;
 }
 
 /* Estilo de la cruz de cerrar (x) */
 .cerrar {
-    position: relative;
-    top: 15px;
-    color: red;
-    font-size: 70px;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
     font-weight: bold;
     cursor: pointer;
+    z-index: 1001;
 }
 
 .cerrar:hover {
