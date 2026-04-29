@@ -1,0 +1,893 @@
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 8px 16px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 8px;
+    text-align: center;
+}
+
+#search {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#searchButton {
+    display: block;
+    margin: 10px auto;
+}
+
+
+/* Estilos para el modal del programa */
+.programa-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.programa-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.4s;
+    position: relative;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.close-programa {
+    color: #aaa;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-programa:hover {
+    color: black;
+}
+
+.programa-title {
+    color: crimson;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.programa-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.programa-table th,
+.programa-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.programa-table th {
+    background-color: #f2f2f2;
+}
+
+.programa-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.programa-btn {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.programa-btn:hover {
+    background-color: #b30000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para centrar el texto en la tabla */
+.programa-table th,
+.programa-table td {
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    vertical-align: middle;
+    /* Centra el texto verticalmente */
+    padding: 12px;
+}
+
+/* Asegúrate que las celdas tengan el mismo ancho */
+.programa-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* Opcional: ajusta el ancho de las columnas si es necesario */
+.programa-table th:nth-child(1),
+.programa-table td:nth-child(1) {
+    width: 20%;
+    /* Ancho para la columna de Hora */
+}
+
+.programa-table th:nth-child(2),
+.programa-table td:nth-child(2) {
+    width: 50%;
+    /* Ancho para la columna de Actividad */
+}
+
+.programa-table th:nth-child(3),
+.programa-table td:nth-child(3) {
+    width: 30%;
+    /* Ancho para la columna de Ponente */
+}
+
+.download-btn:hover {
+    background: #c0392b;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(231, 76, 60, 0.4);
+}
+
+.download-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #e74c3c;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+}
+
+.conte {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: crimson;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.2);
+}
+
+#verificarBtn {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#verificarBtn:hover {
+    background-color: #b30000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.loading {
+    display: none;
+    margin: 20px 0;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: crimson;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 10px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.info {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.let h1 {
+    color: crimson;
+    margin: 20px 0;
+}
+
+.zoom-in-out-box {
+    animation: zoom-in-zoom-out 2s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/* Sección principal */
+.team-section {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 2rem;
+    backdrop-filter: blur(1px);
+    padding: 1.5rem 1rem;
+}
+
+.team-title {
+    grid-column: 1 / -1;
+    /* Esto hace que ocupe todo el ancho del grid */
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #1e2b3c, #2c4c6c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    letter-spacing: -0.5px;
+}
+
+/* Contenedor del carrusel con posicionamiento para las flechas */
+.carousel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+/* Carrusel: scroll horizontal ocultando barra nativa */
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 24px;
+    padding: 20px 12px;
+    scroll-behavior: smooth;
+    /* Ocultar scrollbar en navegadores modernos (manteniendo funcionalidad) */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+/* Tarjeta de personal — estilo premium */
+.team-member {
+    flex: 0 0 100%;
+    /* 1 tarjeta en móvil */
+    background: white;
+    border-radius: 32px;
+    padding: 28px 20px 32px;
+    text-align: center;
+    box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    scroll-snap-align: center;
+    transition: transform 0.25s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.team-member:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 28px 40px -14px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen circular elegante */
+.team-member img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 18px;
+    border: 4px solid white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.team-member:hover img {
+    transform: scale(1.02);
+}
+
+.team-member h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 12px 0 6px;
+    color: #1d2c3a;
+}
+
+.team-member p {
+    color: #5b6f82;
+    font-size: 1rem;
+    font-weight: 500;
+    background: #f0f4f9;
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 40px;
+    margin-top: 8px;
+}
+
+/* === FLECHAS DE NAVEGACIÓN === */
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: all 0.2s ease;
+    z-index: 15;
+    color: #1e4663;
+    background-color: #ffffffdd;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.nav-arrow:hover {
+    background: white;
+    transform: translateY(-50%) scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    color: #0f2c3f;
+}
+
+.nav-arrow:active {
+    transform: translateY(-50%) scale(0.96);
+}
+
+.arrow-left {
+    left: -20px;
+}
+
+.arrow-right {
+    right: -20px;
+}
+
+/* ========== RESPONSIVE EN TARJETAS ========== */
+/* Tablets: mostrar 2 tarjetas a la vez */
+@media (min-width: 640px) {
+    .team-member {
+        flex: 0 0 calc(50% - 12px);
+    }
+
+    .carousel-container {
+        gap: 24px;
+    }
+
+    .nav-arrow {
+        width: 44px;
+        height: 44px;
+        font-size: 24px;
+    }
+
+    .arrow-left {
+        left: -12px;
+    }
+
+    .arrow-right {
+        right: -12px;
+    }
+}
+
+/* Escritorio pequeño / 3 tarjetas */
+@media (min-width: 900px) {
+    .team-member {
+        flex: 0 0 calc(33.33% - 18px);
+    }
+}
+
+/* Escritorio grande: 4 tarjetas (como tu diseño original) */
+@media (min-width: 1200px) {
+    .team-member {
+        flex: 0 0 calc(25% - 22px);
+    }
+
+    .carousel-container {
+        gap: 28px;
+    }
+}
+
+/* Ajustes extra para que en móvil las flechas se vean bien */
+@media (max-width: 500px) {
+    .carousel-wrapper {
+        margin: 0 8px;
+    }
+
+    .arrow-left {
+        left: -8px;
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+    }
+
+    .arrow-right {
+        right: -8px;
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+    }
+
+    .team-member {
+        padding: 20px 12px 24px;
+    }
+
+    .team-member img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .team-title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Indicadores sutiles (dots) para saber posición */
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #b9cadb;
+    border-radius: 50%;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #2c5a7a;
+    width: 24px;
+    border-radius: 8px;
+}
+
+.row {
+    margin-top: 40px;
+    /* Reducido de 70px para evitar huecos grandes */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Espacio uniforme entre columnas sin usar padding excesivo */
+    width: 100%;
+}
+
+.col-md-2 {
+    flex: 1;
+    /* Distribución equitativa */
+    min-width: 250px;
+    /* Evita que se amontone antes de saltar de fila */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.counter {
+    color: #f1c232;
+    font-size: 3rem;
+    /* Tamaño más visible */
+    font-weight: bold;
+    display: block;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+    .container-80 {
+        width: 95%;
+        /* En móvil aprovechamos más la pantalla */
+    }
+
+    .row {
+        margin-top: 20px;
+        /* Menos espacio superior en móvil */
+        gap: 0;
+        /* Quitamos gap para usar bordes */
+    }
+
+    .col-md-2 {
+        min-width: 100%;
+        /* Ocupa todo el ancho */
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        /* Línea divisoria sutil */
+        padding: 15px 10px;
+    }
+
+    .col-md-2:last-child {
+        border-bottom: none;
+        /* Quitamos la línea al último elemento */
+    }
+
+    /* Ajuste de tamaño de fuente para móviles */
+    p[style*="font-size: 45px;"] {
+        font-size: 28px !important;
+        margin-bottom: 10px;
+    }
+}
+
+.seccion-oculta {
+    display: none !important;
+}
+
+.container-80 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.seccion-hoteles {
+    text-align: center;
+    width: 85%;
+}
+
+.titulo-hoteles {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.tabla-responsiva {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.fila {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+
+.fila.encabezado {
+    background: #f1c232;
+    /* El amarillo de tus contadores */
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.fila:last-child {
+    border-bottom: none;
+}
+
+.columna {
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.nombre-hotel {
+    font-weight: 600;
+}
+
+/* Diseño para móviles */
+@media (max-width: 600px) {
+    .fila.encabezado {
+        display: none;
+        /* Escondemos el header en móvil */
+    }
+
+    .fila {
+        flex-direction: column;
+        padding: 10px 0;
+        border-bottom: 2px solid #f1c232;
+    }
+
+    .columna {
+        padding: 5px 20px;
+    }
+
+    .columna::before {
+        content: attr(data-label) ": ";
+        /* Muestra "Hotel:" o "Ubicación:" */
+        font-weight: bold;
+        color: #f1c232;
+    }
+}
+
+:root {
+    --primary: #4f46e5;
+    /* Color moderno tipo Indigo */
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --bg-gray: #f9fafb;
+}
+
+.directory {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+}
+
+.card:hover {
+    border-color: var(--primary);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background: var(--bg-gray);
+    color: var(--primary);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    /* Bordes suavizados en lugar de círculo total */
+    flex-shrink: 0;
+}
+
+.info {
+    background: #fff;
+    /* O el color que prefieras */
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra el texto y botones internamente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para que resalten */
+}
+
+
+.info h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--text-dark);
+    text-align: center;
+}
+
+.info p {
+    margin: 2px 0 8px 0;
+    font-size: 0.85rem;
+    color: var(--text-light);
+    text-align: center;
+}
+
+.info a {
+    font-size: 0.8rem;
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.directory-grid {
+    display: grid;
+    /* El auto-fit es mejor que auto-fill para centrar contenido */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+    /* Centra las columnas en el contenedor */
+    max-width: 1200px;
+    /* Opcional: evita que se estiren demasiado en 4K */
+    margin: 0 auto;
+    /* Centra el contenedor completo en la página */
+}
+
+/* Estilo del Botón */
+#btnAbrir {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 30px;
+    border-color: #4f46e5;
+}
+
+/* Estilo del Modal (Fondo oscuro) */
+.modal {
+    display: none;
+    /* Oculto por defecto */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Negro con opacidad */
+}
+
+/* Contenido del modal (Imagen) */
+.modal-content {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: 350px;
+    height: auto;
+}
+
+/* Estilo de la cruz de cerrar (x) */
+.cerrar {
+    position: relative;
+    top: 15px;
+    color: red;
+    font-size: 70px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cerrar:hover {
+    color: #bbb;
+}
+
+.animacion-mascota {
+  animation: pop-in 1.5s cubic-bezier(0.17, 0.67, 0.83, 0.67) 4;
+}
+
+@keyframes pop-in {
+  0% { transform: scale(0.5); opacity: 0; }
+  70% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
