@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XXVI ONMAPS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <link rel="icon" href="Black.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="estilo_1.css" />
+</head>
+
+<body>
+  <nav class="nav-center">
+    <div class="nav-header">
+      <img src="Logo-ANPM.svg" alt="logo" class="logo">
+      <button class="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <ul class="links">
+      <li>
+        <a href="index.html">Inicio</a>
+      </li>
+      <li>
+        <a href="jornada.html">Jornada</a>
+      </li>
+      <li>
+        <a href="olimpiada.html">XXVI ONMAPS</a>
+      </li>
+      <li>
+        <a href="padres.html">Padres</a>
+      </li>
+    </ul>
+    <!-- social media -->
+    <ul class="social-icons">
+      <li>
+        <a href="https://www.facebook.com/ONMAPSJalisco?mibextid=LQQJ4d" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  </nav>
+  <section>
+    <div class="logar zoom-in-out-box">
+      <img src="Black.png" width="150px" height="150px" />
+    </div>
+  </section>
+
+  <section>
+    <div class="let">
+      <h1>XXVI ONMAPSyB</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="let">
+      <p style="color: crimson; font-size: 35px;"><b>Estamos preparados...</b></p>
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <dotlottie-wc id="animacion" src="https://lottie.host/441664be-cffb-4bc7-8772-9f14408d60bf/YgQaibaDpe.lottie"
+          style="width: 300px;height: 300px" speed="0.7" autoplay loop="false"></dotlottie-wc>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección para los botones modales - ORGANIZADOS VERTICALMENTE -->
+  <section>
+    <div class="let">
+      <p><b>"La cuenta regresiva terminó. Estamos preparados para vivir una experiencia increíble con todos
+          ustedes."</b></p>
+      <div class="let">
+        <p style="color: blue;"><b>Somos anfitriones de la <br><b>Olimpiada Nacional</b> este año.</p>
+        <img src="jal.png" width="320px" height="auto" />
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="let">
+      El evento se lleva a cabo en las instalaciones de: <br> <a target="_blank"
+        style="mso-line-height-rule:exactly;text-decoration:none;color:#5C68E2;font-size:40px"
+        href="https://www.up.edu.mx/campus-guadalajara/">
+        UNIVERSIDAD PANAMERICANA
+      </a>
+      <img style="padding-bottom: 40px;"
+        src="data:image/jpeg;base64,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"
+        width="80%" height="auto" />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.679112689052!2d-103.44454512445046!3d20.682629980881487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428aec9d75f290f%3A0xf3f3e3fb93de3a67!2sUniversidad%20Panamericana%20Guadalajara!5e0!3m2!1ses-419!2smx!4v1777401989492!5m2!1ses-419!2smx"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p style="color: crimson; font-size: 35px;"><b>Programa del evento:</b></p>
+      <img src="Programa.JPG" width="70%" height="auto" />
+    </div>
+  </section>
+  <section style=" background:bisque; 
+   text-align:center;
+   color:#000000; width: 80%; margin: 0 auto;">
+    <div class="row let">
+      <p style="font-size: 45px;">Contaremos con...</p>
+
+      <div class="col-md-2 col-md-offset-2">
+        <h1><span class="counter">460</span></h1>
+        <p>Alumnos del Nivel 4° hasta 12°.</p>
+      </div>
+
+      <div class="col-md-2">
+        <h1><span class="counter">164</span></h1>
+        <p>Docentes, evaluadores y delegados.</p>
+      </div>
+
+      <div class="col-md-2">
+        <h1><span class="counter">800</span></h1>
+        <p>Padres de familia y acompañantes.</p>
+      </div>
+
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js'></script>
+    <script src="count.js"></script>
+  </section>
+  <div class="winners-buttons">
+    <!-- Botón para ver entrenamientos -->
+    <!--- <button class="winner-btn btn-gold" onclick="openModal('entrenamientos')">
+      Hoteles
+    </button>
+  </div> ---¡>
+
+  <!-- Modal para Entrenamientos -->
+    <div id="entrenamientosModal" class="custom-modal">
+      <div class="custom-modal-content">
+        <span class="custom-close" onclick="closeModal('entrenamientos')">&times;</span>
+        <h3 class="modal-title">Continúan Entrenamientos</h3>
+        <div id="entrenamientosTablaContainer" class="tabla-container">
+          <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th>Nombres</th>
+                <th>Escuela</th>
+                <th>Clave</th>
+              </tr>
+            </thead>
+            <tbody id="entrenamientosTablaBody"></tbody>
+          </table>
+        </div>
+        <button class="btn btn-secondary" onclick="closeModal('entrenamientos')">Cerrar</button>
+      </div>
+    </div>
+
+    <section>
+      <div class="let">
+        <a href="https://chat.whatsapp.com/JJHxk6WuZAeHvZBXaJ4II5?mode=ems_copy_t" target="_blank">
+          <i class="fa-brands fa-square-whatsapp"
+            style="margin-right: 10px; font-size:70px; color:rgb(38, 190, 33)"></i>
+        </a>
+      </div>
+    </section>
+    <section class="seccion-oculta">
+      <div class="let">
+        <p>¿Te interesa particicipar en la olimpiada <b>OMM</b>?. Revisa lo siguiente:</p>
+        <p style="padding-bottom: -80px;">Convocatoria OMM 2026</p>
+      </div>
+      <center>
+        <div style="padding-bottom: 20px; margin-top: -40px; width: 90%; padding: 10px;">
+          <iframe src="https://drive.google.com/file/d/15vQelacXJ9YioSBIVRhl91DZA46-vxdc/preview" width="100%"
+            height="500px" allow="autoplay" style="border-radius: 5%;"></iframe>
+        </div>
+      </center>
+    </section>
+    <section class="seccion-hoteles">
+      <div style="font-size: 28px;" class="container-80">
+        Hoteles cercanos a la sede.
+      </div>
+      <div class="tabla-responsiva">
+        <!-- Encabezados -->
+        <div class="fila encabezado">
+          <div class="columna">Hotel</div>
+          <div class="columna">Ubicación</div>
+        </div>
+
+        <!-- Fila 1 -->
+        <div class="fila">
+          <div class="columna nombre-hotel" data-label="Hotel">Hotel AVID</div>
+          <div class="columna" data-label="Ubicación">
+            <a href="https://maps.app.goo.gl/wh1z5fFhsVMMoUsSA" target="_blank">Ver en Mapa</a>
+          </div>
+        </div>
+
+        <div class="fila">
+          <div class="columna nombre-hotel" data-label="Hotel">Hotel FIESTA INN</div>
+          <div class="columna" data-label="Ubicación">
+            <a href="https://maps.app.goo.gl/zNH5SatxCUMSzxtc8" target="_blank">Ver en Mapa</a>
+          </div>
+        </div>
+
+        <div class="fila">
+          <div class="columna nombre-hotel" data-label="Hotel">Hotel HG</div>
+          <div class="columna" data-label="Ubicación">
+            <a href="https://maps.app.goo.gl/ETQtYMdR9WahhKTBA" target="_blank">Ver en Mapa</a>
+          </div>
+        </div>
+
+        <div class="fila">
+          <div class="columna nombre-hotel" data-label="Hotel">Hotel HOLLIDAY INN</div>
+          <div class="columna" data-label="Ubicación">
+            <a href="https://maps.app.goo.gl/34BH5eQtw3qGKfAx9" target="_blank">Ver en Mapa</a>
+          </div>
+        </div>
+
+        <div class="fila">
+          <div class="columna nombre-hotel" data-label="Hotel">Hotel ONE</div>
+          <div class="columna" data-label="Ubicación">
+            <a href="https://maps.app.goo.gl/RTKDAcQkcQcdLe4v7" target="_blank">Ver en Mapa</a>
+          </div>
+        </div>
+
+        <div class="fila">
+          <div class="columna nombre-hotel" data-label="Hotel">Hotel SLEEP INN</div>
+          <div class="columna" data-label="Ubicación">
+            <a href="https://maps.app.goo.gl/vJui6QzFbPBPgKFE8" target="_blank">Ver en Mapa</a>
+          </div>
+        </div>
+
+        <div class="fila">
+          <div class="columna nombre-hotel" data-label="Hotel">Hotel SR</div>
+          <div class="columna" data-label="Ubicación">
+            <a href="https://maps.app.goo.gl/qmH24UjfnHAdgJmW8" target="_blank">Ver en Mapa</a>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <section class="directory-container">
+  <h2 class="team-title">✨ Nuestro Equipo</h2>
+  
+  <!-- Nuevo contenedor solo para el grid de tarjetas -->
+  <div class="directory-grid">
+    <div class="info">
+      <h3>Christa Alejandra Amezcua Eccius</h3>
+      <p>Presidenta ANPM Jalisco</p>
+    </div>
+    <div class="info">
+      <h3>Ivette Gómez Angúlo</h3>
+      <p>Vicepresidenta ANPM Jalisco</p>
+    </div>
+    <div class="info">
+      <h3>Juan Ramón Ruíz Vázquez</h3>
+      <p>Coordinador de olimpiadas ANPM Jalisco</p>
+    </div>
+    <div class="info">
+      <h3>Norma Azucena Flores López</h3>
+      <p>Secretaria ANPM Jalisco</p>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Tarjeta 2 
+      <div class="card">
+        <div class="avatar">IV</div>
+        <div class="info">
+          <h3>Ivette</h3>
+          <p>Desarrollador Web</p>
+        </div>
+      </div>-->
+
+
+  <section>
+    <div class="let">
+      <p>Si te interesa pertenecer al grupo de <b>ANPM</b> lo puedes hacer uniendote al grupo de <b>whatsapp</b></p>
+      <p>Este grupo de <b>whatsapp</b> es de docentes interesados a participar en la <b>ANPM</b>, en el caso de padres
+        favor de estar al pendiente
+        de la sección de <b>Padres</b>.</p>
+      <a href="https://chat.whatsapp.com/JJHxk6WuZAeHvZBXaJ4II5?mode=ems_copy_t" target="_blank">
+        <i class="fa-brands fa-whatsapp" style="margin-right: 10px; font-size:70px; color:rgb(38, 190, 33)"></i>
+      </a>
+      <p style="font-size: 18px;">Dar click en el ícono</p>
+    </div>
+  </section>
+  <section class="team-section seccion-oculta">
+    <h2 class="team-title">✨ Nuestro Equipo Creativo</h2>
+
+    <div class="carousel-wrapper">
+      <!-- Flecha izquierda (anterior) -->
+      <button class="nav-arrow arrow-left" id="prevBtn" aria-label="Anterior">❮</button>
+
+      <!-- Carrusel sin scrollbar, desplazamiento manejado por JS -->
+      <div class="carousel-container" id="carousel">
+        <!-- Miembros del equipo (los mismos pero con rutas placeholder) -->
+        <div class="team-member">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Juan Pérez">
+          <h3>Juan Pérez</h3>
+          <p>CEO & Fundador</p>
+        </div>
+        <div class="team-member">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="María García">
+          <h3>María García</h3>
+          <p>Directora Creativa</p>
+        </div>
+        <div class="team-member">
+          <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Luis Rodríguez">
+          <h3>Luis Rodríguez</h3>
+          <p>Desarrollador Senior</p>
+        </div>
+        <div class="team-member">
+          <img src="https://randomuser.me/api/portraits/women/90.jpg" alt="Ana Martínez">
+          <h3>Ana Martínez</h3>
+          <p>Marketing Manager</p>
+        </div>
+        <div class="team-member">
+          <img src="https://randomuser.me/api/portraits/men/74.jpg" alt="Carlos López">
+          <h3>Carlos López</h3>
+          <p>Diseñador UI/UX</p>
+        </div>
+        <!-- Podemos agregar un sexto miembro para que se note mejor el scroll -->
+        <div class="team-member">
+          <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Laura Fernández">
+          <h3>Laura Fernández</h3>
+          <p>Product Owner</p>
+        </div>
+      </div>
+
+      <!-- Flecha derecha (siguiente) -->
+      <button class="nav-arrow arrow-right" id="nextBtn" aria-label="Siguiente">❯</button>
+    </div>
+
+    <!-- Puntos indicadores de posición (opcional pero elegante) -->
+    <div class="carousel-dots" id="dotsContainer"></div>
+    <br>
+    <br>
+  </section>
+  <script src="dir.js"></script>
+  <br>
+  <br>
+
+
+  <section>
+    <footer class="footer">
+      <div class="footer-content">
+        <p><a href="mailto:anpmjal@gmail.com?Subject=Interesado%20en%20contactar"
+            style="display: inline-block;">Contactar por correo</a></p>
+        <p id="fecha-y-hora"></p>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+  <script type="module">
+    window.addEventListener('DOMContentLoaded', () => {
+      const anim = document.getElementById('animacion');
+      anim.addEventListener('complete', () => {
+        anim.pause();
+      });
+    });
+  </script>
+
+  <script>
+    // Navegación responsive
+    const navToggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.links');
+    navToggle.addEventListener('click', () => {
+      links.classList.toggle('show-links');
+    });
+
+    // Fecha y hora
+    function updateDateTime() {
+      const date = new Date();
+      const hours = String(date.getHours()).padStart(2, '0');
+      const minutes = String(date.getMinutes()).padStart(2, '0');
+      const seconds = String(date.getSeconds()).padStart(2, '0');
+      const day = String(date.getDate()).padStart(2, '0');
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const year = date.getFullYear();
+      document.getElementById('fecha-y-hora').innerHTML = `Fecha: ${day}/${month}/${year} - Hora: ${hours}:${minutes}:${seconds}`;
+    }
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+
+    // Variable para rastrear si ya se cargaron los datos
+    let datosEntrenamientosCargados = false;
+
+    // Función para abrir el modal de entrenamientos
+    async function openModal(modalType) {
+      console.log(`Abriendo modal: ${modalType}`);
+
+      // Solo cargar datos si no se han cargado antes
+      if (!datosEntrenamientosCargados && modalType === 'entrenamientos') {
+        await cargarDatosEntrenamientos();
+        datosEntrenamientosCargados = true;
+      }
+
+      // Mostrar el modal
+      document.getElementById(modalType + 'Modal').style.display = 'block';
+    }
+
+    // Función para cargar datos de entrenamientos
+    async function cargarDatosEntrenamientos() {
+      const tablaBody = document.getElementById('entrenamientosTablaBody');
+
+      try {
+        // Mostrar mensaje de carga
+        tablaBody.innerHTML = '<tr><td colspan="3" style="text-align: center; padding: 20px;">Cargando datos...</td></tr>';
+
+        console.log('Intentando cargar: selectivo.json');
+
+        // Cargar datos desde el archivo JSON
+        const response = await fetch('selectivo.json');
+
+        // Verificar si el archivo existe
+        if (!response.ok) {
+          throw new Error(`No se pudo cargar el archivo: selectivo.json (Status: ${response.status})`);
+        }
+
+        const datos = await response.json();
+        console.log('Datos cargados de selectivo.json:', datos);
+
+        // Limpiar tabla
+        tablaBody.innerHTML = '';
+
+        // Verificar si hay datos
+        if (!datos || datos.length === 0) {
+          tablaBody.innerHTML = '<tr><td colspan="3" style="text-align: center; padding: 20px;">No hay datos disponibles</td></tr>';
+          return;
+        }
+
+        // Crear filas con los datos - solo Nombres, Escuela y Clave
+        datos.forEach((participante, index) => {
+          const fila = document.createElement('tr');
+
+          fila.innerHTML = `
+            <td>${participante["Nombres"] || ''}</td>
+            <td>${participante["Escuela"] || ''}</td>
+            <td>${participante["Clave"] || participante["Clave de participación"] || ''}</td>
+          `;
+
+          tablaBody.appendChild(fila);
+        });
+
+        console.log(`Datos cargados correctamente desde selectivo.json, ${datos.length} registros`);
+
+      } catch (error) {
+        console.error('Error al cargar selectivo.json:', error);
+        tablaBody.innerHTML = `
+          <tr>
+            <td colspan="3" style="text-align: center; color: red; padding: 20px;">
+              Error al cargar los datos: ${error.message}<br>
+              <small>Asegúrate de que el archivo selectivo.json esté en la misma carpeta.</small>
+            </td>
+          </tr>
+        `;
+      }
+    }
+
+    // Función para cerrar cualquier modal
+    function closeModal(modalType) {
+      document.getElementById(modalType + 'Modal').style.display = 'none';
+    }
+
+    // Cerrar modales al hacer clic fuera de ellos
+    window.onclick = function (event) {
+      const modales = ['entrenamientos'];
+
+      // Cerrar modales al hacer clic fuera del contenido
+      modales.forEach(modalType => {
+        const modal = document.getElementById(modalType + 'Modal');
+        if (event.target === modal) {
+          closeModal(modalType);
+        }
+      });
+
+      // También cerrar al hacer clic en las X
+      const closes = document.querySelectorAll('.custom-close');
+      closes.forEach(closeBtn => {
+        if (event.target === closeBtn) {
+          const modal = closeBtn.closest('.custom-modal');
+          modal.style.display = 'none';
+        }
+      });
+    }
+
+    // Cargar datos iniciales (opcional - para pruebas)
+    document.addEventListener('DOMContentLoaded', () => {
+      console.log('Página cargada, listo para mostrar modales');
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
