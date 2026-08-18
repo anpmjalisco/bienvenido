@@ -150,14 +150,20 @@
 
         // Contador regresivo
         function updateCountdown() {
-            const eventDate = new Date('August 30, 2026 00:00:00').getTime();
-            const now = new Date().getTime();
-            const distance = eventDate - now;
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            document.getElementById("days").textContent = days;
+        const eventDate = new Date('August 29, 2026 00:00:00').getTime();
+  
+        // Creamos la fecha actual y la reseteamos a las 00:00:00
+        const now = new Date();
+        now.setHours(0, 0, 0, 0); 
+  
+        const distance = eventDate - now.getTime();
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  
+        document.getElementById("days").textContent = days;
         }
         setInterval(updateCountdown, 1000);
         updateCountdown();
+
 
         // Funciones legacy (por compatibilidad)
         function openModal(src) {
