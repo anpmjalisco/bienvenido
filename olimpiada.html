@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XXVI ONMAPS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <link rel="icon" href="Black.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="estilo_1.css" />
+
+  <!-- 🎆 Librería de fuegos pirotécnicos -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+  <nav class="nav-center">
+    <div class="nav-header">
+      <img src="Logo-ANPM.svg" alt="logo" class="logo">
+      <button class="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <ul class="links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="jornada.html">Congreso</a></li>
+      <li><a href="olimpiada.html">XXVII ONMAPSyB</a></li>
+      <li><a href="padres.html">Padres</a></li>
+    </ul>
+    <ul class="social-icons">
+      <li>
+        <a href="https://www.facebook.com/ONMAPSJalisco?mibextid=LQQJ4d" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <section>
+    <div class="logar zoom-in-out-box">
+      <img src="Black.png" width="150px" height="150px" />
+    </div>
+  </section>
+
+  <section>
+    <div class="let">
+      <h1>XXVII ONMAPSyB</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="let">
+      <p style="color: crimson; font-size: 35px;"><b>Resultados</b></p>
+      <p style="font-size: 20px;"><b>Primera Fase</b></p>
+      <p>Resultados del exámen del día 3 de octubre de 2026</p>
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <dotlottie-wc id="animacion" src="https://lottie.host/d20474a1-8f80-44da-a762-b4f1c0f94efc/cM3fOiVelx.lottie"
+          style="width: 150px;height: 150px" speed="0.7" autoplay loop="false"></dotlottie-wc>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="let">
+      <p style="color: blue; font-size: 35px; margin-bottom: 1rem;"><b>Consulta de Resultados</b></p>
+      <p>Da clic en el botón para consultar tu resultado usando tu correo electrónico.<br>Si eres docente también puedes
+        realizar la consulta de tus alumnos.</p>
+      <button class="calendar-btn" onclick="openModal('consulta', 'alumno')">Correo alumno</button>
+      <button class="calendar-btn" onclick="openModal('consulta', 'docente')" style="margin-top: 10px;">Correo
+        docente</button>
+    </div>
+  </section>
+
+  <section>
+    <div class="let">
+      <p class="maquina-escribir">
+        <b id="texto-animado"><span></span></b>
+      </p>
+    </div>
+    <script>
+      const container = document.getElementById('texto-animado');
+      const spanElement = container.querySelector('span');
+      const fullText = "Estén al pendiente de esta página, tenemos una sorpresa para el mes de diciembre.";
+      let index = 0;
+      let isDeleting = false;
+
+      function efetoMaquina() {
+        if (!isDeleting) {
+          spanElement.innerText = fullText.substring(0, index + 1);
+          index++;
+          if (index === fullText.length) {
+            isDeleting = true;
+            setTimeout(efetoMaquina, 2500);
+            return;
+          }
+        } else {
+          spanElement.innerText = fullText.substring(0, index - 1);
+          index--;
+          if (index === 0) {
+            isDeleting = false;
+            setTimeout(efetoMaquina, 500);
+            return;
+          }
+        }
+        const velocidad = isDeleting ? 40 : 80;
+        setTimeout(efetoMaquina, velocidad);
+      }
+      efetoMaquina();
+    </script>
+  </section>
+
+  <section>
+    <div class="let">
+      <p style="color: crimson; font-size: 35px;"><b>¡Fechas Importantes!</b><br>📆</p>
+      <div id="timeline-container">
+        <div class="inner-container">
+          <ul class="timeline">
+            <li class="timeline-item" data-date="29/08/2026">
+              Inicio inscripciones <i class="fas fa-check-circle" style="color: #28a745; margin-left: 8px;"></i>
+            </li>
+            <li class="timeline-item" data-date="29/09/2026">
+              Cierre de inscripciones <i class="fas fa-check-circle" style="color: #28a745; margin-left: 8px;"></i>
+            </li>
+            <li class="timeline-item" data-date="03/10/2026">
+              Primera Fase <i class="fas fa-check-circle" style="color: #28a745; margin-left: 8px;"></i>
+            </li>
+            <li class="timeline-item" data-date="07/11/2026">Fase Estatal</li>
+            <li class="timeline-item" data-date="21/11/2026">Premiación</li>
+            <li class="timeline-item" data-date="23/01/2026">Primer Selectivo</li>
+            <li class="timeline-item" data-date="28/02/2026">Segundo Selectivo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-bottom: 10rem;">
+    <ul class="wrapper">
+      <li class="icon facebook">
+        <a href="https://www.facebook.com/ONMAPSJalisco?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+          <span class="tooltip">Facebook</span>
+          <span><i class="fab fa-facebook-f"></i></span>
+        </a>
+      </li>
+      <li class="icon instagram">
+        <a href="https://www.instagram.com/onmapsjal?igsi=MWc1dnFkazYwdngwMw%3D%3D&utm_source=qr" target="_blank"
+          rel="noopener noreferrer">
+          <span class="tooltip">Instagram</span>
+          <span><i class="fab fa-instagram"></i></span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <footer class="footer">
+      <div class="footer-content">
+        <p><a href="mailto:anpmjal@gmail.com?Subject=Interesado%20en%20contactar"
+            style="display: inline-block;">Contactar por correo</a></p>
+        <p id="fecha-y-hora"></p>
+      </div>
+    </footer>
+  </section>
+
+  <!-- Modal de consulta por correo -->
+  <div id="consultaModal" class="custom-modal">
+    <div class="custom-modal-content">
+      <span class="custom-close" onclick="closeModal('consulta')">&times;</span>
+      <h3 class="modal-title" id="consultaModalTitulo">Consulta de resultados</h3>
+      <p id="consultaModalDescripcion" style="text-align: center;">Ingresa tu correo electrónico para consultar tus
+        resultados.</p>
+      <form id="consultaForm" onsubmit="return false;">
+        <input type="email" id="correoInput" placeholder="tucorreo@ejemplo.com" required
+          style="display: block; margin: 10px auto; padding: 10px; width: 90%; max-width: 400px; font-size: 14px; border: 2px solid #ddd; border-radius: 8px;" />
+        <button type="button" id="buscarCorreoBtn" class="calendar-btn" onclick="buscarPorCorreo()">Buscar</button>
+      </form>
+
+      <!-- Imagen centrada arriba de la tabla -->
+      <div id="imagenResultado" style="display: none; text-align: center; margin: 20px 0;">
+        <img src="Black.png" alt="Logo" style="max-width: 120px; height: auto;">
+      </div>
+
+      <!-- Tabla de resultados -->
+      <div id="resultadoConsulta" class="tabla-container" style="display: none;">
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Código</th>
+              <th>Estatus</th>
+              <th>Constancia</th>
+            </tr>
+          </thead>
+          <tbody id="resultadoTablaBody"></tbody>
+        </table>
+      </div>
+
+      <!-- 🆕 NUEVO: Botón para el formulario de elección de sede -->
+      <div id="botonFormularioSede" style="display: none; text-align: center; margin-top: 20px;">
+        <a id="enlaceFormularioSede" href="#" target="_blank" rel="noopener noreferrer" class="calendar-btn"
+          style="text-decoration: none; display: inline-block;">
+          📋 Elegir sede
+        </a>
+      </div>
+
+      <!-- Mensaje motivador -->
+      <div id="mensajeMotivador"
+        style="display: none; text-align: center; margin-top: 20px; font-size: 18px; color: #28a745; font-weight: bold;">
+      </div>
+
+      <div id="mensajeConsulta" class="no-data-message" style="display: none;"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+  <script type="module">
+    window.addEventListener('DOMContentLoaded', () => {
+      const anim = document.getElementById('animacion');
+      anim.addEventListener('complete', () => {
+        anim.pause();
+      });
+    });
+  </script>
+
+  <script>
+    // Navegación responsive
+    const navToggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.links');
+    navToggle.addEventListener('click', () => {
+      links.classList.toggle('show-links');
+    });
+
+    // Fecha y hora
+    function updateDateTime() {
+      const date = new Date();
+      const hours = String(date.getHours()).padStart(2, '0');
+      const minutes = String(date.getMinutes()).padStart(2, '0');
+      const seconds = String(date.getSeconds()).padStart(2, '0');
+      const day = String(date.getDate()).padStart(2, '0');
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const year = date.getFullYear();
+      document.getElementById('fecha-y-hora').innerHTML = `Fecha: ${day}/${month}/${year} - Hora: ${hours}:${minutes}:${seconds}`;
+    }
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+
+    // Cerrar modales al hacer clic fuera de ellos
+    window.addEventListener('click', function (event) {
+      const modal = document.getElementById('consultaModal');
+      if (event.target === modal) {
+        closeModal('consulta');
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      console.log('Página cargada, listo para mostrar modales');
+    });
+  </script>
+
+  <script>
+    // ============================================
+    // CONFIGURACIÓN
+    // ============================================
+    const SHEETS = {
+      alumno: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRdsklnZXICdM_0rDFhb3iRB1DYqnNZAdPIs8I3LOncIkuZb4e5axqAH6kp-OoVHeZbVEK1xyCKM7Li/pub?gid=915504388&single=true&output=csv",
+      docente: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRdsklnZXICdM_0rDFhb3iRB1DYqnNZAdPIs8I3LOncIkuZb4e5axqAH6kp-OoVHeZbVEK1xyCKM7Li/pub?gid=915504388&single=true&output=csv"
+    };
+
+    const COLUMNA_CORREO = {
+      alumno: "Correo de contacto del estudiante",
+      docente: "Dirección de correo electrónico"
+    };
+
+    // Columnas usadas para el botón de formulario y constancias
+    const COLUMNA_FORMULARIO_SEDE = "Elección de sede";
+
+    const datosPorTipo = {
+      alumno: { data: [], ultimaCarga: 0 },
+      docente: { data: [], ultimaCarga: 0 }
+    };
+    const CACHE_MS = 5 * 60 * 1000;
+
+    let tipoConsultaActual = 'alumno';
+    let fuegosActivos = false;
+
+    // ============================================
+    // 🆕 NUEVO: Convertir enlace de Drive a descarga directa
+    // ============================================
+    function convertirEnlaceDescarga(url) {
+      if (!url) return '';
+      const limpio = url.trim();
+      // Acepta formatos:
+      //  - https://drive.google.com/file/d/<ID>/view?usp=...
+      //  - https://drive.google.com/open?id=<ID>
+      //  - https://drive.google.com/uc?id=<ID>
+      const match = limpio.match(/\/d\/([a-zA-Z0-9_-]+)/) || limpio.match(/[?&]id=([a-zA-Z0-9_-]+)/);
+      if (match && match[1]) {
+        return `https://drive.google.com/uc?export=download&id=${match[1]}`;
+      }
+      return limpio;
+    }
+
+    // ============================================
+    // 🎆 FUEGOS PIROTÉCNICOS
+    // ============================================
+    function lanzarFuegosPirotectnicos() {
+      if (fuegosActivos) return;
+      fuegosActivos = true;
+
+      const duracion = 5000;
+      const fin = Date.now() + duracion;
+      const colores = ['#FFD700', '#FF4500', '#FF1493', '#00CED1', '#FF69B4', '#00FF7F', '#FF6347', '#1E90FF'];
+
+      confetti({
+        particleCount: 200,
+        spread: 100,
+        origin: { y: 0.6 },
+        colors: colores
+      });
+
+      (function frame() {
+        confetti({
+          particleCount: 5,
+          angle: 60,
+          spread: 55,
+          origin: { x: 0, y: 0.7 },
+          colors: colores
+        });
+        confetti({
+          particleCount: 5,
+          angle: 120,
+          spread: 55,
+          origin: { x: 1, y: 0.7 },
+          colors: colores
+        });
+
+        if (Math.random() < 0.35) {
+          confetti({
+            particleCount: 30,
+            startVelocity: 30,
+            spread: 360,
+            ticks: 60,
+            origin: { x: Math.random(), y: Math.random() * 0.5 },
+            colors: colores
+          });
+        }
+
+        if (Date.now() < fin) {
+          requestAnimationFrame(frame);
+        } else {
+          fuegosActivos = false;
+        }
+      })();
+    }
+
+    // Parser CSV robusto
+    function parseCSV(texto) {
+      const filas = [];
+      let fila = [];
+      let campo = '';
+      let entreComillas = false;
+
+      for (let i = 0; i < texto.length; i++) {
+        const c = texto[i];
+        const siguiente = texto[i + 1];
+
+        if (c === '"') {
+          if (entreComillas && siguiente === '"') {
+            campo += '"';
+            i++;
+          } else {
+            entreComillas = !entreComillas;
+          }
+        } else if (c === ',' && !entreComillas) {
+          fila.push(campo);
+          campo = '';
+        } else if ((c === '\n' || c === '\r') && !entreComillas) {
+          if (campo !== '' || fila.length > 0) {
+            fila.push(campo);
+            if (fila.some(v => v.trim() !== '')) filas.push(fila);
+            fila = [];
+            campo = '';
+          }
+          if (c === '\r' && siguiente === '\n') i++;
+        } else {
+          campo += c;
+        }
+      }
+      if (campo !== '' || fila.length > 0) {
+        fila.push(campo);
+        if (fila.some(v => v.trim() !== '')) filas.push(fila);
+      }
+      return filas;
+    }
+
+    // Cargar datos desde el Google Sheet
+    async function cargarDatosONMAPS(tipo = 'alumno', forzar = false) {
+      const ahora = Date.now();
+      const cache = datosPorTipo[tipo];
+
+      if (!forzar && cache.data.length > 0 && (ahora - cache.ultimaCarga) < CACHE_MS) {
+        console.log(`Usando caché (${tipo}):`, cache.data.length, 'registros');
+        return cache.data;
+      }
+
+      try {
+        console.log(`Descargando datos (${tipo}) desde Google Sheets...`);
+        const respuesta = await fetch(SHEETS[tipo]);
+
+        if (!respuesta.ok) {
+          throw new Error(`HTTP ${respuesta.status}`);
+        }
+
+        const texto = await respuesta.text();
+        const filas = parseCSV(texto);
+
+        if (filas.length < 2) {
+          throw new Error('El Sheet está vacío o no tiene encabezados');
+        }
+
+        const encabezados = filas[0].map(h => h.trim().replace(/^"|"$/g, ''));
+
+        cache.data = filas.slice(1).map(fila => {
+          const obj = {};
+          encabezados.forEach((enc, i) => {
+            obj[enc] = (fila[i] || '').trim().replace(/^"|"$/g, '');
+          });
+          return obj;
+        }).filter(r => Object.values(r).some(v => v !== ''));
+
+        cache.ultimaCarga = ahora;
+        console.log(`✅ ${cache.data.length} registros cargados (${tipo})`);
+        return cache.data;
+
+      } catch (error) {
+        console.error(`Error al cargar (${tipo}):`, error);
+        cache.data = [];
+        throw error;
+      }
+    }
+
+    // Abrir modal de consulta
+    async function openModal(modalType, tipo = 'alumno') {
+      if (modalType === 'consulta') {
+        tipoConsultaActual = tipo;
+
+        const titulo = document.getElementById('consultaModalTitulo');
+        const descripcion = document.getElementById('consultaModalDescripcion');
+        if (tipo === 'docente') {
+          titulo.textContent = 'Consulta de resultados - Docentes';
+          descripcion.textContent = 'Ingresa tu correo electrónico para consultar los resultados de tus alumnos.';
+        } else {
+          titulo.textContent = 'Consulta de resultados - Alumnos';
+          descripcion.textContent = 'Ingresa tu correo electrónico para consultar tus resultados. No olvides descargar tu constancia.';
+        }
+
+        document.getElementById('consultaModal').style.display = 'block';
+        document.getElementById('resultadoConsulta').style.display = 'none';
+        document.getElementById('mensajeConsulta').style.display = 'none';
+        document.getElementById('imagenResultado').style.display = 'none';
+        document.getElementById('mensajeMotivador').style.display = 'none';
+        // 🆕 Ocultar botón de formulario al abrir el modal
+        document.getElementById('botonFormularioSede').style.display = 'none';
+        document.getElementById('correoInput').value = '';
+
+        if (datosPorTipo[tipo].data.length === 0) {
+          const mensajeDiv = document.getElementById('mensajeConsulta');
+          mensajeDiv.textContent = 'Cargando datos...';
+          mensajeDiv.style.display = 'block';
+          try {
+            await cargarDatosONMAPS(tipo);
+            mensajeDiv.style.display = 'none';
+          } catch (e) {
+            mensajeDiv.textContent = 'Error al cargar los datos. Intenta de nuevo más tarde.';
+          }
+        }
+      }
+    }
+
+    // Cerrar modal
+    function closeModal(modalType) {
+      if (modalType === 'consulta') {
+        document.getElementById('consultaModal').style.display = 'none';
+      }
+    }
+
+    // Buscar por correo
+    async function buscarPorCorreo() {
+      const tipo = tipoConsultaActual;
+      const correo = document.getElementById('correoInput').value.trim().toLowerCase();
+      const tablaBody = document.getElementById('resultadoTablaBody');
+      const resultadoDiv = document.getElementById('resultadoConsulta');
+      const mensajeDiv = document.getElementById('mensajeConsulta');
+      const imagenDiv = document.getElementById('imagenResultado');
+      const mensajeMotivador = document.getElementById('mensajeMotivador');
+      const botonFormularioDiv = document.getElementById('botonFormularioSede');
+
+      tablaBody.innerHTML = '';
+      resultadoDiv.style.display = 'none';
+      mensajeDiv.style.display = 'none';
+      imagenDiv.style.display = 'none';
+      mensajeMotivador.style.display = 'none';
+      // 🆕 Ocultar botón de formulario al iniciar búsqueda
+      botonFormularioDiv.style.display = 'none';
+
+      if (!correo) {
+        mensajeDiv.textContent = 'Por favor, ingresa un correo electrónico.';
+        mensajeDiv.style.display = 'block';
+        return;
+      }
+
+      if (datosPorTipo[tipo].data.length === 0) {
+        mensajeDiv.textContent = 'Cargando datos...';
+        mensajeDiv.style.display = 'block';
+        try {
+          await cargarDatosONMAPS(tipo);
+        } catch (e) {
+          mensajeDiv.textContent = 'No se pudieron cargar los datos. Intenta de nuevo.';
+          return;
+        }
+      }
+
+      const datos = datosPorTipo[tipo].data;
+      const columnaCorreo = COLUMNA_CORREO[tipo];
+
+      const resultados = datos.filter(item => {
+        const correoItem = (item[columnaCorreo] || '').toLowerCase();
+        return correoItem.includes(correo);
+      });
+
+      if (resultados.length === 0) {
+        mensajeDiv.textContent = 'No se encontraron registros con ese correo.';
+        mensajeDiv.style.display = 'block';
+        return;
+      }
+
+      let algunPasa = false;
+
+      resultados.forEach(item => {
+        const valorPasa = (item["Pasó 1° fase"] || '').toString().trim();
+        let textoPasa = '';
+        if (valorPasa === '1') {
+          textoPasa = 'Pasa';
+          algunPasa = true;
+        } else if (valorPasa === '0') {
+          textoPasa = 'No pasa';
+        } else if (valorPasa === '') {
+          textoPasa = 'No aplicó';
+        } else {
+          textoPasa = valorPasa;
+        }
+
+        // 🆕 Convertir enlace de constancia a descarga directa
+        const enlaceOriginal = item["Enlace al Diploma"] || '';
+        const enlaceDescarga = convertirEnlaceDescarga(enlaceOriginal);
+
+        const fila = document.createElement('tr');
+        fila.innerHTML = `
+          <td>${item["Nombres"] || ''}</td>
+          <td>${item["Código fijo"] || ''}</td>
+          <td>${textoPasa}</td>
+          <td>${enlaceDescarga ? `<a href="${enlaceDescarga}" target="_blank" rel="noopener noreferrer">Descargar constancia</a>` : ''}</td>
+        `;
+        tablaBody.appendChild(fila);
+      });
+
+      // 🆕 Buscar enlace del formulario de "Elección de sede"
+      let enlaceFormulario = '';
+      for (const item of resultados) {
+        const valor = (item[COLUMNA_FORMULARIO_SEDE] || '').trim();
+        if (valor && /^https?:\/\//i.test(valor)) {
+          enlaceFormulario = valor;
+          break;
+        }
+      }
+
+      if (enlaceFormulario) {
+        const enlaceA = document.getElementById('enlaceFormularioSede');
+        enlaceA.href = enlaceFormulario;
+        botonFormularioDiv.style.display = 'block';
+      } else {
+        botonFormularioDiv.style.display = 'none';
+      }
+
+      // Mostrar imagen centrada
+      imagenDiv.style.display = 'block';
+
+      // Mensaje motivador solo para alumnos
+      if (tipo === 'alumno') {
+        if (algunPasa) {
+          mensajeMotivador.textContent = '¡Felicidades! Has pasado a la siguiente fase. ¡Sigue así, el éxito te espera!';
+          mensajeMotivador.style.color = '#28a745';
+          lanzarFuegosPirotectnicos();
+        } else {
+          mensajeMotivador.textContent = 'Continúa esforzándote. Nos vemos en la próxima ONMAPSyB';
+          mensajeMotivador.style.color = '#dc3545';
+        }
+        mensajeMotivador.style.display = 'block';
+      }
+
+      resultadoDiv.style.display = 'block';
+    }
+
+    // Precarga inicial
+    document.addEventListener('DOMContentLoaded', () => {
+      cargarDatosONMAPS('alumno').catch(err => console.warn('Precarga alumno falló:', err));
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
