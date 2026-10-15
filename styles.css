@@ -1025,3 +1025,35 @@ iframe[src*=".pdf"] {
   from, to { border-color: transparent }
   50% { border-color: red; }
 }
+ /* Contenedor del mapa */
+        .contenedor-mapa {
+            position: relative;
+            width: 90%;
+            max-width: 1200px;
+            /* Ancho máximo en PC para que no se desfigure */
+            margin: 0 auto;
+            /* Centra el mapa en la pantalla */
+
+            /* Relación de aspecto (Proporción del mapa) */
+            aspect-ratio: 16 / 9;
+        }
+
+        /* Estilos para el iframe de Google Maps */
+        .contenedor-mapa iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 8px;
+            /* Bordes redondeados estéticos */
+        }
+
+        /* Optimización opcional para pantallas muy pequeñas (móviles verticales) */
+        @media (max-width: 576px) {
+            .contenedor-mapa {
+                aspect-ratio: 4 / 3;
+                /* Hace el mapa un poco más alto en celulares */
+            }
+        }
