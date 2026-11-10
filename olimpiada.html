@@ -656,7 +656,7 @@
     selectNivel.addEventListener('change', function () {
       const nivel = this.value;
       if (!nivel) return;
-      imagenNivel.src = `${nivel}.jpg`;
+      imagenNivel.src = `img/niveles/${nivel.toLowerCase()}.jpg`;
       imagenNivel.alt = `Resultados ${nivel}`;
       modalNivel.classList.add('activo');
       document.body.style.overflow = 'hidden'; // evita scroll de fondo
