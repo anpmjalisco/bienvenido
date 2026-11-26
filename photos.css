@@ -1,0 +1,74 @@
+ .carousel-wrapper {
+            width: 95%;
+        }
+
+        .carousel {
+            border-radius: 30px;
+            overflow: hidden;
+        }
+
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+
+        /* ===== Carrusel de fotos con bordes redondeados ===== */
+#carouselExampleIndicators {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+#carouselExampleIndicators .carousel-inner {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#carouselExampleIndicators .carousel-item img {
+    border-radius: 20px;
+    object-fit: cover;
+    max-height: 550px;
+    width: 100%;
+}
+
+/* Botón debajo del carrusel hacia el Drive */
+.drive-btn-container {
+    text-align: center;
+    margin: 30px auto 10px;
+}
+
+.drive-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: crimson;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(220, 20, 60, 0.3);
+}
+
+.drive-btn:hover {
+    background: #b30000;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(220, 20, 60, 0.45);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    #carouselExampleIndicators .carousel-item img {
+        max-height: 300px;
+    }
+    .drive-btn {
+        font-size: 1rem;
+        padding: 12px 24px;
+    }
+}
