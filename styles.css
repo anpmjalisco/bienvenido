@@ -1103,13 +1103,13 @@ iframe[src*=".pdf"] {
   }
 }
 
-/* Responsive: 1 columna en móvil */
+/* Responsive: 2 columnas en móvil */
 @media (max-width: 500px) {
   .gallery {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   .gallery img {
-    height: 200px;
+    height: 160px; /* Opcional: baja un poco el alto de 200px para que no se vean muy alargadas */
   }
 }
 
